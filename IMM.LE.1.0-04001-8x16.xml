@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="git://codeaurora.org/quic/imm" name="caf-imm"/>
+  <remote fetch="git://codeaurora.org/" name="caf"/>
+  <default remote="caf-imm"/>
+  <project name="imm/bitbake" path="sources/openembedded-core/bitbake" revision="0e9d8d63ddb35d181d4e470585d1e4a4c646cd00" upstream="IMM.LE.1.0"/>
+  <project name="imm/kernel" path="sources/kernel" revision="4b9a7d2faa4448e5a39811ba6a2d3de631f857b4" upstream="IMM.LE.1.0"/>
+  <project name="imm/meta-96boards" path="sources/meta-96boards" revision="2be59f0d381b5ec173d7fc24f3ae14aaf47b8649" upstream="IMM.LE.1.0"/>
+  <project name="imm/meta-browser" path="sources/meta-browser" revision="5c00d0114c5963a178cb33f6d06181c588c03ae0" upstream="IMM.LE.1.0"/>
+  <project name="imm/meta-openembedded" path="sources/meta-openembedded" revision="dc5634968b270dde250690609f0015f881db81f2" upstream="IMM.LE.1.0"/>
+  <project name="imm/meta-qcom" path="sources/meta-qcom" revision="32fcda819acb8ec485d9ab05108d554f807bf75d" upstream="IMM.LE.1.0"/>
+  <project name="imm/meta-rpb" path="sources/meta-rpb" revision="203903ca6f4e8df09bef6ea3c6e899d07eca8df9" upstream="IMM.LE.1.0"/>
+  <project name="imm/openembedded-core" path="sources/openembedded-core" revision="c99ed6b73f397906475c09323b03b53deb83de55" upstream="IMM.LE.1.0"/>
+  <project name="imm/qcom-oe-setup" path="sources/conf" revision="1034d058dcd0cc2374b6cac492d9efafb1013803" upstream="IMM.LE.1.0">
+    <linkfile dest="setup-environment" src="setup-environment"/>
+  </project>
+  <project name="quic/kernel/skales" path="sources/skales" remote="caf" revision="caba898d5f949a2501e83e01e32317a0de2bb75c" upstream="master"/>
+</manifest>
