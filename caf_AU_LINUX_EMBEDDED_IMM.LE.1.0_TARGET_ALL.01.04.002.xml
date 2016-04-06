@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="git://codeaurora.org/quic/" name="caf-la"/>
+  <remote fetch="git://codeaurora.org/" name="caf" review="codeaurora.org"/>
+  <default remote="caf" revision="IMM.LE.1.0"/>
+  <project name="quic/imm/imm/bitbake" path="sources/openembedded-core/bitbake" revision="0e9d8d63ddb35d181d4e470585d1e4a4c646cd00" upstream="IMM.LE.1.0"/>
+  <project name="quic/imm/imm/kernel" path="sources/kernel" revision="4b9a7d2faa4448e5a39811ba6a2d3de631f857b4" upstream="IMM.LE.1.0"/>
+  <project name="quic/imm/imm/meta-96boards" path="sources/meta-96boards" revision="2be59f0d381b5ec173d7fc24f3ae14aaf47b8649" upstream="IMM.LE.1.0"/>
+  <project name="quic/imm/imm/meta-browser" path="sources/meta-browser" revision="5c00d0114c5963a178cb33f6d06181c588c03ae0" upstream="IMM.LE.1.0"/>
+  <project name="quic/imm/imm/meta-openembedded" path="sources/meta-openembedded" revision="bfdd560eba07922ed02a16cf9236c16b6d185395" upstream="IMM.LE.1.0"/>
+  <project name="quic/imm/imm/meta-qcom" path="sources/meta-qcom" revision="6ea301ad9b460cbbe47b3c836f6444b812cf9865" upstream="IMM.LE.1.0"/>
+  <project name="quic/imm/imm/meta-rpb" path="sources/meta-rpb" revision="203903ca6f4e8df09bef6ea3c6e899d07eca8df9" upstream="IMM.LE.1.0"/>
+  <project name="quic/imm/imm/openembedded-core" path="sources/openembedded-core" revision="c99ed6b73f397906475c09323b03b53deb83de55" upstream="IMM.LE.1.0"/>
+  <project name="quic/imm/imm/qcom-oe-setup" path="sources/conf" revision="15ace66ef1b94ee17e1b79066f2bd56d166b5e6f" upstream="IMM.LE.1.0">
+    <linkfile dest="setup-environment" src="setup-environment"/>
+  </project>
+  <project name="kernel/skales" path="sources/skales" remote="caf-la" revision="caba898d5f949a2501e83e01e32317a0de2bb75c" upstream="master"/>
+  <project name="kernel/lk" path="sources/lk" revision="55f6eee22737c9a07746f5e6796e538e299e81af"/>
+  <project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" path="arm-eabi-4.8" revision="26e93f6af47f7bd3a9beb5c102a5f45e19bfa38a"/>
+</manifest>
