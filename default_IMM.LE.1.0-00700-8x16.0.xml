@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="git://codeaurora.org/" name="caf" review="codeaurora.org"/>
+  <default remote="caf" revision="IMM.LE.1.0"/>
+  <project name="quic/imm/imm/bitbake" path="sources/openembedded-core/bitbake"/>
+  <project name="quic/imm/imm/kernel" path="sources/kernel"/>
+  <project name="quic/imm/imm/meta-96boards" path="sources/meta-96boards"/>
+  <project name="quic/imm/imm/meta-browser" path="sources/meta-browser"/>
+  <project name="quic/imm/imm/meta-openembedded" path="sources/meta-openembedded"/>
+  <project name="quic/imm/imm/meta-qcom" path="sources/meta-qcom"/>
+  <project name="quic/imm/imm/meta-rpb" path="sources/meta-rpb"/>
+  <project name="quic/imm/imm/openembedded-core" path="sources/openembedded-core"/>
+  <project name="quic/imm/imm/qcom-oe-setup" path="sources/conf">
+    <linkfile dest="setup-environment" src="setup-environment"/>
+  </project>
+  <project name="quic/imm/imm/sources" path="sources/vendor/qti"/>
+  <project name="kernel/lk" path="sources/lk" revision="55f6eee22737c9a07746f5e6796e538e299e81af"/>
+  <project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" path="arm-eabi-4.8" revision="26e93f6af47f7bd3a9beb5c102a5f45e19bfa38a"/>
+</manifest>
