@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="git://codeaurora.org/quic/imm" name="caf-imm"/>
+  <remote fetch="git://codeaurora.org/" name="caf" review="codeaurora.org"/>
+  <default remote="caf" revision="IMM.LE.1.0"/>
+  <project name="imm/bitbake" path="sources/openembedded-core/bitbake" remote="caf-imm" revision="b993d96203541cd2919d688559ab802078a7a506" upstream="bitbake/1.28"/>
+  <project name="quic/imm/imm/kernel" path="sources/kernel" revision="2845fc213411f464a2fffb7e2798c88f1077b4fa" upstream="IMM.LE.1.0"/>
+  <project name="imm/meta-96boards" path="sources/meta-96boards" remote="caf-imm" revision="097091a0161e4d797256c31b2339638061cce6e3"/>
+  <project name="imm/meta-backports" path="sources/meta-backports" remote="caf-imm" revision="afdcaa69a314df6586fca149a5f0fc85f52fc233" upstream="linaro/jethro"/>
+  <project name="imm/meta-browser" path="sources/meta-browser" remote="caf-imm" revision="f7672465f3d044fa9f8482f28e1c47ad024d75ac" upstream="meta-browser/chromium_45"/>
+  <project name="imm/meta-games" path="sources/meta-games" remote="caf-imm" revision="df419a4ca083a4a3346deb0c8216328976dad334" upstream="meta-games/master"/>
+  <project name="imm/meta-gstreamer10" path="sources/meta-gstreamer10" remote="caf-imm" revision="d2cb0057e41810cb9a1af7c7b94a7b8150018fbb"/>
+  <project name="imm/meta-openembedded" path="sources/meta-openembedded" remote="caf-imm" revision="2ea8d7f54a061e902657c4f8ea1f7f7c25c6c4e1" upstream="metaoe/jethro"/>
+  <project name="imm/meta-qcom" path="sources/meta-qcom" remote="caf-imm" revision="2bf741274e1d106f68ffecbf0d9d91c3bdadeab0" upstream="meta-qcom/jethro"/>
+  <project name="imm/meta-rpb" path="sources/meta-rpb" remote="caf-imm" revision="a95c9f922ff7f7beb595b99dcbbe84f93751ed60"/>
+  <project name="imm/openembedded-core" path="sources/openembedded-core" remote="caf-imm" revision="d39e7ca717b67ad9f2f78b83d90d91e410e52965" upstream="oecore/jethro"/>
+  <project name="imm/openembedded/meta-linaro" path="sources/meta-linaro" remote="caf-imm" revision="9b1fd178309544dff1f7453e796a9437125bc0d9" upstream="meta-linaro/jethro"/>
+  <project name="quic/imm/imm/qcom-oe-setup" path="sources/conf" revision="1373edf2fdf473e0e1f470bb6f04138f81a5e754" upstream="IMM.LE.1.0">
+    <linkfile dest="setup-environment" src="setup-environment"/>
+  </project>
+  <project name="imm/skales" path="sources/skales" remote="caf-imm" revision="6eac9e943de53c4aaaede3697e9226a47686fe25" upstream="skales/master"/>
+  <project name="quic/imm/imm/sources" path="sources/vendor/qti" revision="4c4ad290cfa92ca9157fbf0fda8a0da6b9abfc46" upstream="IMM.LE.1.0"/>
+  <project name="kernel/lk" path="sources/lk" revision="9824e3b428756cd24da010816ccbbbcb25f148a6" upstream="IMM.LE.1.0"/>
+  <project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" path="arm-eabi-4.8" revision="26e93f6af47f7bd3a9beb5c102a5f45e19bfa38a"/>
+</manifest>
