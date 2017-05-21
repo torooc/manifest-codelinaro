@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="git://codeaurora.org/quic/imm" name="caf-imm"/>
+  <remote fetch="https://source.codeaurora.org/" name="caf" review="codeaurora.org"/>
+  <default remote="caf" revision="IMM.LE.1.0"/>
+  <project name="imm/bitbake" path="sources/openembedded-core/bitbake" remote="caf-imm" revision="bdf7a362ecdafd47f309b7a21feac4b94624f287" upstream="bitbake/1.32"/>
+  <project name="quic/imm/imm/kernel" path="sources/kernel" revision="77edb40cedfe55e2926a28c1762df4be9ef8ae62" upstream="IMM.LE.1.0"/>
+  <project name="imm/meta-96boards" path="sources/meta-96boards" remote="caf-imm" revision="430af8e396146ce39bcedd955632c7433de2bfd2" upstream="meta-96boards/morty"/>
+  <project name="imm/meta-backports" path="sources/meta-backports" remote="caf-imm" revision="633b607fdafe56eac03930944534cb4e0ebc9ae1" upstream="linaro/morty"/>
+  <project name="imm/meta-browser" path="sources/meta-browser" remote="caf-imm" revision="8cb775e7f17b3c6df694b3d148e80d9e366d7d6b" upstream="meta-browser/master"/>
+  <project name="imm/meta-games" path="sources/meta-games" remote="caf-imm" revision="16d63d3025e9959cd45935d5ab300eb36509e5f0" upstream="meta-games/master"/>
+  <project name="imm/meta-openembedded" path="sources/meta-openembedded" remote="caf-imm" revision="fe5c83312de11e80b85680ef237f8acb04b4b26e" upstream="metaoe/morty"/>
+  <project name="imm/meta-qcom" path="sources/meta-qcom" remote="caf-imm" revision="da63ca630845558e3e350bbf9ffb3de3091a4972" upstream="meta-qcom/morty"/>
+  <project name="imm/meta-rpb" path="sources/meta-rpb" remote="caf-imm" revision="721af9def998f8ce1014c5b262eceb53f8b69a0b" upstream="meta-rpb/morty"/>
+  <project name="imm/meta-virtualization" path="sources/meta-virtualization" remote="caf-imm" revision="1beb18840539f0366b6a5f20bcff98c99534c496" upstream="meta-virtualization/morty"/>
+  <project name="imm/openembedded-core" path="sources/openembedded-core" remote="caf-imm" revision="55fa8b210139509859258c0ee11b3534f10fa509" upstream="oecore/morty"/>
+  <project name="imm/openembedded/meta-linaro" path="sources/meta-linaro" remote="caf-imm" revision="d4639deb43bb6c62ac06aaf951245edc9b9f410e" upstream="meta-linaro/morty"/>
+  <project name="quic/imm/imm/qcom-oe-setup" path="sources/conf" revision="470f7e12792852fd895c60af41e32f7cc7316287" upstream="IMM.LE.1.0">
+    <linkfile dest="setup-environment" src="setup-environment"/>
+  </project>
+  <project name="imm/skales" path="sources/skales" remote="caf-imm" revision="8492547e404e969262d9070dee9bdd15668bb70f" upstream="skales/master"/>
+  <project name="quic/imm/imm/sources" path="sources/vendor/qti" revision="4ca9c9320860e73417deb7cf94e60dfec374f1a0" upstream="IMM.LE.1.0"/>
+  <project name="quic/imm/imm/sources/diag" path="sources/vendor/qti/diag" revision="8fe3171e0554846702a75f7e3f3e24712ee157ca" upstream="IMM.LE.1.0"/>
+  <project name="kernel/lk" path="sources/lk" revision="5637ddb3be72c120d417377c05302e040b2e2f4c" upstream="IMM.LE.1.0"/>
+  <project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" path="arm-eabi-4.8" revision="26e93f6af47f7bd3a9beb5c102a5f45e19bfa38a"/>
+</manifest>
