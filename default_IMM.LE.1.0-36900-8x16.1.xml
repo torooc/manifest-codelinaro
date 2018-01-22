@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="git://codeaurora.org/quic/imm" name="caf-imm"/>
+  <remote fetch="https://source.codeaurora.org" name="caf" review="codeaurora.org"/>
+  <default remote="caf" revision="IMM.LE.1.0"/>
+  <project name="imm/bitbake" path="sources/openembedded-core/bitbake" remote="caf-imm" revision="bitbake/1.32"/>
+  <project name="quic/imm/imm/kernel" path="sources/kernel" revision="IMM.LE.1.0_4.9"/>
+  <project name="imm/meta-96boards" path="sources/meta-96boards" remote="caf-imm" revision="meta-96boards/morty"/>
+  <project name="imm/meta-backports" path="sources/meta-backports" remote="caf-imm" revision="linaro/morty"/>
+  <project name="imm/meta-browser" path="sources/meta-browser" remote="caf-imm" revision="26d50665e2f7223c5f4ad7481a8d2431e7cb55fb"/>
+  <project name="imm/meta-games" path="sources/meta-games" remote="caf-imm" revision="meta-games/master"/>
+  <project name="imm/meta-openembedded" path="sources/meta-openembedded" remote="caf-imm" revision="metaoe/morty"/>
+  <project name="imm/meta-qcom" path="sources/meta-qcom" remote="caf-imm" revision="meta-qcom/morty"/>
+  <project name="imm/meta-rpb" path="sources/meta-rpb" remote="caf-imm" revision="meta-rpb/morty"/>
+  <project name="imm/meta-virtualization" path="sources/meta-virtualization" remote="caf-imm" revision="meta-virtualization/morty"/>
+  <project name="imm/openembedded-core" path="sources/openembedded-core" remote="caf-imm" revision="oecore/morty"/>
+  <project name="imm/openembedded/meta-linaro" path="sources/meta-linaro" remote="caf-imm" revision="meta-linaro/morty"/>
+  <project name="quic/imm/imm/qcom-oe-setup" path="sources/conf">
+    <linkfile dest="setup-environment" src="setup-environment"/>
+  </project>
+  <project name="imm/skales" path="sources/skales" remote="caf-imm" revision="skales/master"/>
+  <project name="quic/imm/imm/sources" path="sources/vendor/qti"/>
+  <project name="quic/imm/imm/sources/diag" path="sources/vendor/qti/diag"/>
+  <project name="kernel/lk" path="sources/lk"/>
+  <project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" path="arm-eabi-4.8" revision="26e93f6af47f7bd3a9beb5c102a5f45e19bfa38a"/>
+</manifest>
