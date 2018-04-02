@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="git://codeaurora.org/quic/imm" name="caf-imm"/>
+  <remote fetch="https://github.com" name="github"/>
+  <remote fetch="http://git.linaro.org" name="linaro"/>
+  <remote fetch="https://source.codeaurora.org/" name="caf" review="codeaurora.org"/>
+  <remote fetch="http://git.yoctoproject.org" name="yocto"/>
+  <default remote="caf" revision="IMM.LE.1.0"/>
+  <project name="96boards/meta-96boards" path="sources/meta-96boards" remote="github" revision="be85a60406a756d52374e0b5f28c867ebfc6e185" upstream="rocko"/>
+  <project name="96boards/meta-rpb" path="sources/meta-rpb" remote="github" revision="bc7cf89fad80be3829618c77e60c7bd5d97dbf03"/>
+  <project name="OSSystems/meta-browser" path="sources/meta-browser" remote="github" revision="26d50665e2f7223c5f4ad7481a8d2431e7cb55fb"/>
+  <project name="cazfi/meta-games" path="sources/meta-games" remote="github" revision="5b3eb1fea129a4e46fff2c39080494d7ce1a3d22"/>
+  <project name="git/meta-virtualization" path="sources/meta-virtualization" remote="yocto" revision="bd77388f31929f38e7d4cc9c711f0f83f563007e" upstream="rocko"/>
+  <project name="quic/imm/imm/qcom-oe-setup" path="sources/conf" revision="470f7e12792852fd895c60af41e32f7cc7316287" upstream="IMM.LE.1.0">
+    <linkfile dest="setup-environment" src="setup-environment"/>
+  </project>
+  <project name="imm/skales" path="sources/skales" remote="caf-imm" revision="c2bfa15aa5bfc4e3f1b32de28e327b80b37db1cf" upstream="skales/master"/>
+  <project name="quic/imm/imm/sources" path="sources/vendor/qti" revision="2f30d949726bb7e68a8d0287eda86583a3f10fd0" upstream="IMM.LE.1.0"/>
+  <project name="quic/imm/imm/sources/diag" path="sources/vendor/qti/diag" revision="7f351b534efd4a5845415ad3b40f6a5e1f652bb2" upstream="IMM.LE.1.0"/>
+  <project name="kernel/lk" path="sources/lk" revision="5993e44d8d6f27afea86e60fda84622305c9b2a5" upstream="IMM.LE.1.0"/>
+  <project name="ndechesne/meta-qcom" path="sources/meta-qcom" remote="github" revision="5d39fe07620748e6c67c342d2a02edea65e25276" upstream="rocko"/>
+  <project name="openembedded/bitbake" path="sources/openembedded-core/bitbake" remote="github" revision="223a0f68530571d2280f526bddbc718fa803a3dc" upstream="1.36"/>
+  <project name="openembedded/meta-backports" path="sources/meta-backports" remote="linaro" revision="bac8992fe87d58ed3cb8720a82766e4d25515e78" upstream="rocko"/>
+  <project name="openembedded/meta-linaro" path="sources/meta-linaro" remote="linaro" revision="75dfb67bbb14a70cd47afda9726e2e1c76731885" upstream="rocko"/>
+  <project name="openembedded/meta-openembedded" path="sources/meta-openembedded" remote="github" revision="dacfa2b1920e285531bec55cd2f08743390aaf57" upstream="rocko"/>
+  <project name="openembedded/openembedded-core" path="sources/openembedded-core" remote="github" revision="30f326fb9c0f3b4dbfe7f99e18b74f90e99f4207" upstream="rocko"/>
+  <project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" path="arm-eabi-4.8" revision="26e93f6af47f7bd3a9beb5c102a5f45e19bfa38a"/>
+</manifest>
