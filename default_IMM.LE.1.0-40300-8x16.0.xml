@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="git://codeaurora.org/quic/imm" name="caf-imm"/>
+  <remote fetch="https://github.com" name="github"/>
+  <remote fetch="http://git.linaro.org" name="linaro"/>
+  <remote fetch="https://source.codeaurora.org" name="caf" review="codeaurora.org"/>
+  <remote fetch="http://git.yoctoproject.org" name="yocto"/>
+  <default remote="caf" revision="IMM.LE.1.0"/>
+  <project name="96boards/meta-96boards" path="sources/meta-96boards" remote="github" revision="rocko"/>
+  <project name="96boards/meta-rpb" path="sources/meta-rpb" remote="github" revision="bc7cf89fad80be3829618c77e60c7bd5d97dbf03"/>
+  <project name="OSSystems/meta-browser" path="sources/meta-browser" remote="github" revision="26d50665e2f7223c5f4ad7481a8d2431e7cb55fb"/>
+  <project name="cazfi/meta-games" path="sources/meta-games" remote="github" revision="5b3eb1fea129a4e46fff2c39080494d7ce1a3d22"/>
+  <project name="git/meta-virtualization" path="sources/meta-virtualization" remote="yocto" revision="rocko"/>
+  <project name="quic/imm/imm/qcom-oe-setup" path="sources/conf">
+    <linkfile dest="setup-environment" src="setup-environment"/>
+  </project>
+  <project name="imm/skales" path="sources/skales" remote="caf-imm" revision="skales/master"/>
+  <project name="quic/imm/imm/sources" path="sources/vendor/qti"/>
+  <project name="quic/imm/imm/sources/diag" path="sources/vendor/qti/diag"/>
+  <project name="kernel/lk" path="sources/lk"/>
+  <project name="ndechesne/meta-qcom" path="sources/meta-qcom" remote="github" revision="rocko"/>
+  <project name="openembedded/bitbake" path="sources/openembedded-core/bitbake" remote="github" revision="1.36"/>
+  <project name="openembedded/meta-backports" path="sources/meta-backports" remote="linaro" revision="rocko"/>
+  <project name="openembedded/meta-linaro" path="sources/meta-linaro" remote="linaro" revision="rocko"/>
+  <project name="openembedded/meta-openembedded" path="sources/meta-openembedded" remote="github" revision="rocko"/>
+  <project name="openembedded/openembedded-core" path="sources/openembedded-core" remote="github" revision="rocko"/>
+  <project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" path="arm-eabi-4.8" revision="26e93f6af47f7bd3a9beb5c102a5f45e19bfa38a"/>
+</manifest>
