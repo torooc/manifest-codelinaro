@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="git://codeaurora.org/quic/imm" name="caf-imm" review="null"/>
+  <remote fetch="git://codeaurora.org/external/imx" name="caf-imx" review="null"/>
+  <remote fetch="git://codeaurora.org/quic/ype" name="caf-ype" review="null"/>
+  <remote fetch="https://source.codeaurora.org/" name="caf" review="codeaurora.org"/>
+  <default remote="caf" revision="CHSS.LNX_FSL.2.2_rb1.2"/>
+  <project name="external/github.com/meta-qt5/meta-qt5" path="sources/meta-qt5" remote="caf-ype" revision="ff073f04109900fc07bf81e2f1df63c626caf342"/>
+  <project name="external/openembedded.org/meta-openembedded" path="sources/meta-openembedded" remote="caf-ype" revision="fe5c83312de11e80b85680ef237f8acb04b4b26e"/>
+  <project name="external/yoctoproject.org/poky" path="sources/poky" remote="caf-ype" revision="78890ea22750804e3e9113e76f7ca3d7234c8342"/>
+  <project name="imm/meta-browser" path="sources/meta-browser" remote="caf-imm" revision="10f6e3778d823ee1be106c126216c6f941088fbf"/>
+  <project name="meta-fsl-bsp-release" path="sources/meta-fsl-bsp-release" remote="caf-imx" revision="daba3340ecd8b358e0c6c415baeee0fcae95c525"/>
+  <project name="quic/le/meta-qti-connectivity" path="sources/meta-qti-connectivity" revision="a786660b2a0138e3a9db33482e99961eafbaac4f" upstream="CHSS.LNX_FSL.2.2_rb1.2"/>
+  <project name="platform/external/wpa_supplicant_8" path="sources/wlan-opensource/wpa_supplicant_8" revision="4726dd09058dd32e8ce8212ada29d558a22eb231" upstream="CHSS.LNX_FSL.2.2_rb1.2"/>
+  <project name="platform/vendor/qcom-opensource/wlan/fw-api" path="sources/wlan-opensource/fw-api" revision="ce5144bf82c7d6ab5d135c664b0a3f0cd019af8e" upstream="CHSS.LNX_FSL.2.2_rb1.2"/>
+  <project name="platform/vendor/qcom-opensource/wlan/qca-wifi-host-cmn" path="sources/wlan-opensource/qca-wifi-host-cmn" revision="0a6d58ce3cde4d28518fbcb0f16cff2fe70f1573" upstream="CHSS.LNX_FSL.2.2_rb1.2"/>
+  <project name="platform/vendor/qcom-opensource/wlan/qcacld-2.0" path="sources/wlan-opensource/qcacld-2.0" revision="306dd549d5791ab9558f1f34ebc9b61ffb37fd61" upstream="CHSS.LNX_FSL.2.2_rb1.2"/>
+  <project name="platform/vendor/qcom-opensource/wlan/qcacld-3.0" path="sources/wlan-opensource/qcacld-3.0" revision="4a40d3b46e3c9cbfdb917e33c1fd824b65bab8f9" upstream="CHSS.LNX_FSL.2.2_rb1.2"/>
+  <project name="platform/vendor/qcom-opensource/wlan/tools" path="sources/wlan-opensource/dsrc-tool" revision="e681d31aec6513fcc414bd2f15fec9a0914bd173" upstream="CHSS.LNX_FSL.2.2_rb1.2"/>
+  <project name="platform/vendor/qcom-opensource/wlan/utils/sigma-dut" path="sources/wlan-opensource/sigma-dut" revision="e9a3bd3f17fe61b005c9bd13630622e0e6e4eef0" upstream="CHSS.LNX_FSL.2.2_rb1.2"/>
+  <project name="quic/le/qcom-opensource/mdm-init" path="sources/wlan-opensource/mdm-init" revision="1f409684229f1feaff1348b42e6310ea42247576" upstream="CHSS.LNX_FSL.2.2_rb1.2"/>
+</manifest>
