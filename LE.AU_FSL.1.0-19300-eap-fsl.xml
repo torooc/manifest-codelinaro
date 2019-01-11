@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="git://codeaurora.org/quic/ype" name="caf-ype" review="null"/>
+  <remote fetch="https://github.com/Freescale" name="freescale"/>
+  <remote fetch="https://source.codeaurora.org/" name="caf" review="codeaurora.org"/>
+  <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
+  <default remote="caf" revision="refs/heads/master"/>
+  <project dest-branch="refs/heads/mdm-eap.lnx.1.0" name="quic/le/eap-qti-kernel" path="sources/eap-qti-kernel" revision="569e00b57eb58cf4f6b6b341111dccf9df55136d" upstream="refs/heads/mdm-eap.lnx.1.0"/>
+  <project name="external/openembedded.org/meta-openembedded" path="sources/meta-openembedded" remote="caf-ype" revision="dfbdd28d206a74bf264c2f7ee0f7b3e5af587796" upstream="refs/heads/openembeded.org/pyro"/>
+  <project name="external/yoctoproject.org/poky" path="sources/poky" remote="caf-ype" revision="7a9edf12cc741bbebf6cb244ba4cf3213fe0a1fd" upstream="refs/heads/yocto/pyro"/>
+  <project name="meta-freescale" path="sources/meta-freescale" remote="yocto" revision="af5a8cf74d488ba45715ed0b0e0441e60b10c31d" upstream="refs/heads/pyro"/>
+  <project name="meta-freescale-3rdparty" path="sources/meta-freescale-3rdparty" remote="freescale" revision="9613dbc02ca970122a01c935bc9e5789ced73a9d" upstream="refs/heads/pyro"/>
+  <project name="meta-freescale-distro" path="sources/meta-freescale-distro" remote="freescale" revision="cd5c7a2539f40004f74126e9fdf08254fd9a6390" upstream="refs/heads/pyro"/>
+  <project dest-branch="refs/heads/mdm-eap.lnx.1.0" name="quic/le/meta-qti-eap" path="sources/meta-qti-eap" revision="cf423fe9b582ba8a18221dca21af52b131fef368" upstream="refs/heads/mdm-eap.lnx.1.0"/>
+  <project dest-branch="refs/heads/location.lnx.3.0.c5" name="platform/hardware/qcom/gps" path="hardware/qcom/gps" revision="f2150657489da0bbb7e6926df95ae100eb54b211" upstream="refs/heads/location.lnx.3.0.c5"/>
+  <project dest-branch="refs/heads/telsdk.lnx.1.0" name="platform/hardware/ril" path="telux/services/ril" revision="0f05f29beae043c7638b9ec2b1234a33ba803eca" upstream="refs/heads/telsdk.lnx.1.0"/>
+  <project dest-branch="refs/heads/data.lnx.1.0" name="platform/vendor/qcom-opensource/dataservices" path="vendor/qcom/opensource/dataservices" revision="0619069e753dbb891dd18220bec8b23d39f94f57" upstream="refs/heads/data.lnx.1.0"/>
+  <project dest-branch="refs/heads/location.lnx.3.0.c5" name="platform/vendor/qcom-opensource/location" path="vendor/qcom/opensource/location" revision="8a120ed7ce4d2a22f87cbef38db4c5bef12b5afe" upstream="refs/heads/location.lnx.3.0.c5"/>
+  <project dest-branch="refs/heads/telsdk.lnx.1.0" name="quic/le/platform/vendor/qcom-opensource/snaptel-sdk" path="telux/public" revision="b5609e19fb9c2b6ba35bdb16682e031f40ad0438" upstream="refs/heads/telsdk.lnx.1.0"/>
+</manifest>
