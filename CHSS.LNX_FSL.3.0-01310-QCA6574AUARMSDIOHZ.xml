@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="https://source.codeaurora.org/" name="caf" review="codeaurora.org"/>
+  <default remote="caf" revision="CHSS.LNX_FSL.3.0_rb1.3"/>
+  <project name="quic/le/meta-qti-connectivity" path="sources/meta-qti-connectivity" revision="8f3a16f6285d37d653ef8521dae6e1649eb087e1" upstream="CHSS.LNX_FSL.3.0_rb1.3"/>
+  <project name="platform/external/wpa_supplicant_8" path="sources/wlan-opensource/wpa_supplicant_8" revision="ad90a9975d3db205f1471ef101e63d1c012ce355" upstream="CHSS.LNX_FSL.3.0_rb1.3"/>
+  <project name="platform/vendor/qcom-opensource/wlan/fw-api" path="sources/wlan-opensource/fw-api" revision="995edb416d5fbf64f6320a36fb69cffe482ee626" upstream="CHSS.LNX_FSL.3.0_rb1.3"/>
+  <project name="platform/vendor/qcom-opensource/wlan/qca-wifi-host-cmn" path="sources/wlan-opensource/qca-wifi-host-cmn" revision="d5bc7d81fbc0e1ef242791dc16152a36062d65c2" upstream="CHSS.LNX_FSL.3.0_rb1.3"/>
+  <project name="platform/vendor/qcom-opensource/wlan/qcacld-3.0" path="sources/wlan-opensource/qcacld-3.0" revision="f338e5b3c45a6d7f5cffb5553991855154e00dc9" upstream="CHSS.LNX_FSL.3.0_rb1.3"/>
+  <project name="platform/vendor/qcom-opensource/wlan/utils/sigma-dut" path="sources/wlan-opensource/sigma-dut" revision="e9a3bd3f17fe61b005c9bd13630622e0e6e4eef0" upstream="CHSS.LNX_FSL.3.0_rb1.3"/>
+  <project name="quic/le/qcom-opensource/mdm-init" path="sources/wlan-opensource/mdm-init" revision="6b99238a035cfbab6c4bae26e1710e8873a8d327" upstream="CHSS.LNX_FSL.3.0_rb1.3"/>
+</manifest>
