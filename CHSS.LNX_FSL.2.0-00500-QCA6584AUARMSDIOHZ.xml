@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="git://codeaurora.org/external/afd4400" name="caf-afd4400" review="null"/>
+  <remote fetch="git://codeaurora.org/quic/ype" name="caf-ype" review="null"/>
+  <remote fetch="https://source.codeaurora.org/" name="caf" review="codeaurora.org"/>
+  <default remote="caf" revision="refs/heads/master"/>
+  <project name="external/openembedded.org/meta-openembedded" path="sources/meta-openembedded" remote="caf-ype" revision="d3d14d3fcca7fcde362cf0b31411dc4eea6d20aa"/>
+  <project name="external/yoctoproject.org/poky" path="sources/poky" remote="caf-ype" revision="6717d19848cf6211e7d791078bb18a87dd39d191"/>
+  <project name="meta-fsl-arm" path="sources/meta-fsl-arm" remote="caf-afd4400" revision="0c4de80867c3ab4e9682dd7802d3fd907d1e1a23"/>
+  <project dest-branch="refs/heads/connectivity-service.lnx.1.0" name="quic/le/meta-qti-connectivity" path="sources/meta-qti-connectivity" revision="503f887bd896701bc8f4810d5412f298db3db164" upstream="refs/heads/connectivity-service.lnx.1.0"/>
+  <project dest-branch="refs/heads/wlan-service.lnx.1.3" name="platform/external/wpa_supplicant_8" path="sources/wlan-opensource/wpa_supplicant_8" revision="b6247baad501561826360e0b08b589a35313d2d6" upstream="refs/heads/wlan-service.lnx.1.3"/>
+  <project dest-branch="refs/heads/wlan-cld2.driver.lnx.1.0" name="platform/vendor/qcom-opensource/wlan/qcacld-2.0" path="sources/wlan-opensource/qcacld-2.0" revision="207166bdacc4ab91af4f418f0d61077fcfe4c78d" upstream="refs/heads/wlan-cld2.driver.lnx.1.0"/>
+  <project dest-branch="refs/heads/wlan-tools.lnx.1.0" name="platform/vendor/qcom-opensource/wlan/tools" path="sources/wlan-opensource/dsrc-tool" revision="e681d31aec6513fcc414bd2f15fec9a0914bd173" upstream="refs/heads/wlan-tools.lnx.1.0"/>
+  <project dest-branch="refs/heads/wlan-service.lnx.1.3" name="platform/vendor/qcom-opensource/wlan/utils/sigma-dut" path="sources/wlan-opensource/sigma-dut" revision="98c4b198b3010fa27f88d45d5bb744be0e3df852" upstream="refs/heads/wlan-service.lnx.1.3"/>
+  <project dest-branch="refs/heads/wlan-tools.lnx.1.0" name="quic/le/qcom-opensource/mdm-init" path="sources/wlan-opensource/mdm-init" revision="0a25804a9a3dd2682b8cf6d2c497ff7a9dffe7ed" upstream="refs/heads/wlan-tools.lnx.1.0"/>
+</manifest>
