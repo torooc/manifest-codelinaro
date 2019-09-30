@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="git://codeaurora.org/quic/ype" name="caf-ype" review="null"/>
+  <remote fetch="https://source.codeaurora.org/" name="caf" review="codeaurora.org"/>
+  <default remote="caf" revision="refs/heads/master"/>
+  <project name="external/yoctoproject.org/poky" path="poky" remote="caf-ype" revision="f5a57e939e626a5b7c6de5b51799ca602ed355ed" upstream="refs/heads/yocto/thud"/>
+  <project dest-branch="refs/heads/core-technologies.lnx.2.0" name="quic/filesystems/fs/external/mtd-utils" path="src/filesystems/mtd-utils" revision="4d32bde3e99ad9a2de2a1333235cabba179ceaa3" upstream="refs/heads/core-technologies.lnx.2.0"/>
+  <project dest-branch="refs/heads/lk.lnx.1.0" name="kernel/lk" path="src/bootable/bootloader/lk" revision="4e7e339727774aebf018da6221021fb456110c20" upstream="refs/heads/lk.lnx.1.0"/>
+  <project dest-branch="refs/heads/msm-4.9" name="kernel/msm-4.9" path="src/kernel/msm-4.9" revision="d9979fa51096a37ceb65348296fe6645d69e9708" upstream="refs/heads/msm-4.9"/>
+  <project dest-branch="refs/heads/yocto.lnx.3.1" name="quic/le/meta-qti-bsp" path="poky/meta-qti-bsp" revision="8a489069fb0150b5754d282c2101b92b1b001d58" upstream="refs/heads/yocto.lnx.3.1"/>
+  <project dest-branch="refs/heads/core-technologies.lnx.2.0" name="quic/le/meta-qti-core" path="poky/meta-qti-core" revision="50223cce1f422c87fafefa7ee83782bc06fc171a" upstream="refs/heads/core-technologies.lnx.2.0"/>
+  <project dest-branch="refs/heads/data.lnx.1.0" name="quic/le/meta-qti-data" path="poky/meta-qti-data" revision="43b470c8a094c0da168b158dfb2b38b0f66e5192" upstream="refs/heads/data.lnx.1.0"/>
+  <project dest-branch="refs/heads/le-sepolicy.lnx.3.0" name="quic/le/meta-qti-sepolicy" path="poky/meta-qti-sepolicy" revision="7dda90a14709e71c985357b3eee725b3c0c7549d" upstream="refs/heads/le-sepolicy.lnx.3.0"/>
+  <project dest-branch="refs/heads/wlan-service.lnx.4.0.1" name="quic/le/meta-qti-wlan" path="poky/meta-qti-wlan" revision="ab56f837cd0def894a9a096f9edd74b72734e8fd" upstream="refs/heads/wlan-service.lnx.4.0.1"/>
+  <project dest-branch="refs/heads/le-sepolicy.lnx.3.0" name="quic/le/meta-selinux" path="poky/meta-selinux" revision="2c176184de59d1b991deade17613758928fe3606" upstream="refs/heads/le-sepolicy.lnx.3.0"/>
+  <project dest-branch="refs/heads/data.lnx.1.0" name="platform/external/compat-wireless" path="src/external/compat-wireless" revision="0143c07f3b1594a9259b7a0fe041deb5f4db8099" upstream="refs/heads/data.lnx.1.0"/>
+  <project dest-branch="refs/heads/le-blast.lnx.1.4" name="platform/external/safe-iop" path="src/external/safe-iop" revision="aa0725fb1da35e47676b6da30009322eb5ed59be" upstream="refs/heads/le-blast.lnx.1.4"/>
+  <project dest-branch="refs/heads/wlan-ks-service.lnx.1.0" name="platform/external/wpa_supplicant_8" path="src/external/wpa_supplicant_8" revision="ba90b0a09d39d1ec88d258fdbbea7f7561305748" upstream="refs/heads/wlan-ks-service.lnx.1.0"/>
+  <project dest-branch="refs/heads/le-blast.lnx.1.4" name="platform/hardware/libhardware" path="src/hardware/libhardware" revision="a8822fca7e4bb38eb77a17c407b8c984a1a955bf" upstream="refs/heads/le-blast.lnx.1.4"/>
+  <project dest-branch="refs/heads/wlan-aosp.lnx.2.0" name="platform/hardware/qcom/wlan" path="src/hardware/qcom/wlan" revision="d38e27595e74ab7c161025b44be0d75b24da4daf" upstream="refs/heads/wlan-aosp.lnx.2.0"/>
+  <project dest-branch="refs/heads/le-blast.lnx.1.4" name="platform/system/core" path="src/system/core" revision="d439351d1a091d07bf20b5c19b47a0c9ad5636f2" upstream="refs/heads/le-blast.lnx.1.4"/>
+  <project dest-branch="refs/heads/le-blast.lnx.1.4" name="platform/system/extras" path="src/system/extras" revision="198bcced31f08baf2474fa611859e42ab54cb74d" upstream="refs/heads/le-blast.lnx.1.4"/>
+  <project dest-branch="refs/heads/le-frameworks.lnx.2.1" name="quic/le/platform/vendor/qcom-opensource/le-framework" path="src/frameworks" revision="773a8949e9e9f38b782ed0b7301f0e4ba5f80830" upstream="refs/heads/le-frameworks.lnx.2.1"/>
+  <project dest-branch="refs/heads/wlan-driver.lnx.1.0" name="platform/vendor/qcom-opensource/wlan/prima" path="src/qcom-opensource/wlan/prima" revision="0a77bd751fc82bf1306bb6e806152446f3afea34" upstream="refs/heads/wlan-driver.lnx.1.0"/>
+  <project dest-branch="refs/heads/wlan-cld2.driver.lnx.1.0" name="platform/vendor/qcom-opensource/wlan/qcacld-2.0" path="src/wlan/qcacld-2.0" revision="207166bdacc4ab91af4f418f0d61077fcfe4c78d" upstream="refs/heads/wlan-cld2.driver.lnx.1.0"/>
+  <project dest-branch="refs/heads/wlan-service.lnx.4.0.1" name="platform/vendor/qcom-opensource/wlan/utils/sigma-dut" path="src/wlan/utils/sigma-dut" revision="1bda6eaab3ec9855c4f2833c29ab42f075dcd033" upstream="refs/heads/wlan-service.lnx.4.0.1"/>
+  <project dest-branch="refs/heads/wlan-tools.lnx.1.0" name="quic/le/qcom-opensource/mdm-init" path="src/mdm-init" revision="afe0ac835848c7a40554aec48fdeb001223cad77" upstream="refs/heads/wlan-tools.lnx.1.0"/>
+  <project dest-branch="refs/heads/yocto.lnx.3.1" name="quic/le/qti-conf" path="poky/qti-conf" revision="3ad17642b6f4479135d97990a17d4f30924273c6" upstream="refs/heads/yocto.lnx.3.1">
+    <linkfile dest="setup-environment" src="set_bb_env.sh"/>
+  </project>
+</manifest>
