@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="git://codeaurora.org/quic/le" name="caf-le" review="null"/>
+  <remote fetch="git://codeaurora.org/quic/ype" name="caf-ype" review="null"/>
+  <remote fetch="https://source.codeaurora.org/" name="caf" review="codeaurora.org"/>
+  <default remote="caf" revision="LV.AU.0.0.1_rb1.12"/>
+  <project name="AGL/meta-agl" path="meta-agl" remote="caf-le" revision="59f37556d15e7e75a0be2ba6695bc0c3fdd5df64" upstream="refs/heads/automotivelinux/halibut"/>
+  <project name="AGL/meta-agl-demo" path="meta-agl-demo" remote="caf-le" revision="acc3a8ec6102fb9bad15ad31f0c1afcdf40cb772" upstream="refs/heads/automotivelinux/halibut"/>
+  <project name="AGL/meta-agl-devel" path="meta-agl-devel" remote="caf-le" revision="0c48b622c53059cb0da320c83747056a766e3364" upstream="refs/heads/magl/halibut"/>
+  <project name="AGL/meta-agl-extra" path="meta-agl-extra" remote="caf-le" revision="da5c116d856302db07954f20e2493636eb7ea5a2" upstream="refs/heads/meta-agl-extra/halibut"/>
+  <project name="quic/le/AGL/staging/agl-audio-plugin" path="vendor/qcom/opensource/agl-audio-plugin" revision="b47cceab98cf3231eef71e15e678399eec9f0d09" upstream="LV.AU.0.0.1_rb1.12"/>
+  <project name="quic/le/abl/tianocore/edk2" path="bootable/bootloader/edk2" revision="ac17dd7359be18289659cbdf9d4d259860531076" upstream="LV.AU.0.0.1_rb1.12"/>
+  <project name="external/github.com/meta-clang" path="meta-clang" remote="caf-ype" revision="2c1619639ee5b4331c78c794fdfd2a0d5d778b2f" upstream="refs/heads/movingly/pyro"/>
+  <project name="external/github.com/meta-qt5/meta-qt5" path="meta-qt5" remote="caf-ype" revision="81937713f774d7dea854b22987b3ef1ab1f1cdbe" upstream="refs/heads/github.com/thud"/>
+  <project name="quic/ype/external/gstreamer.org/gstreamer/gst-omx" path="gstreamer/gst-omx" revision="2f1633ba854f59d26501f781d9e150d3d075922a" upstream="LV.AU.0.0.1_rb1.12"/>
+  <project name="quic/ype/external/gstreamer.org/gstreamer/gst-plugins-bad" path="gstreamer/gst-plugins-bad" revision="a5c5e962307c8f678f7763fe4d9b2e7a2fef1cf9" upstream="LV.AU.0.0.1_rb1.12"/>
+  <project name="quic/ype/external/gstreamer.org/gstreamer/gst-plugins-base" path="gstreamer/gst-plugins-base" revision="826e7520c1b7a368ed9935e8c2d23205e42e2514" upstream="LV.AU.0.0.1_rb1.12"/>
+  <project name="quic/ype/external/gstreamer.org/gstreamer/gst-plugins-good" path="gstreamer/gst-plugins-good" revision="e201a6444e427d90e6ebc302aa79acde4d514b19" upstream="LV.AU.0.0.1_rb1.12"/>
+  <project name="quic/ype/external/gstreamer.org/gstreamer/gst-plugins-ugly" path="gstreamer/gst-plugins-ugly" revision="9ed4ce392a0ba47447eee1e60cb195bf383991a7" upstream="LV.AU.0.0.1_rb1.12"/>
+  <project name="quic/ype/external/gstreamer.org/gstreamer/gstreamer" path="gstreamer/gstreamer" revision="09ef28244880d53af5e0231ebacbe8fd1ffefe19" upstream="LV.AU.0.0.1_rb1.12"/>
+  <project name="external/openembedded.org/meta-openembedded" path="meta-openembedded" remote="caf-ype" revision="4cd3a39f22a2712bfa8fc657d09fe2c7765a4005" upstream="refs/heads/openembeded.org/thud"/>
+  <project name="external/yoctoproject.org/meta-gplv2" path="meta-gplv2" remote="caf-ype" revision="aabc30f3bd03f97326fb8596910b94639fea7575" upstream="refs/heads/meta-gplv2/thud"/>
+  <project name="external/yoctoproject.org/meta-security" path="meta-security" remote="caf-ype" revision="31dc4e7532fa7a82060e0b50e5eb8d0414aa7e93" upstream="refs/heads/yocto/thud"/>
+  <project name="external/yoctoproject.org/poky" path="poky" remote="caf-ype" revision="50f33d3bfebcbfb1538d932fb487cfd789872026" upstream="refs/heads/yocto/thud"/>
+  <project name="quic/filesystems/fs/external/mtd-utils" path="disregard/filesystems/mtd-utils" revision="4d32bde3e99ad9a2de2a1333235cabba179ceaa3" upstream="LV.AU.0.0.1_rb1.12"/>
+  <project name="kernel/msm-4.14" revision="d5fc97d3f40c3372fd6c61051f3970969c2e0c25" upstream="LV.AU.0.0.1_rb1.12"/>
+  <project name="quic/le/meta-qti-audio" path="disregard/poky/meta-qti-audio" revision="ab63611dd4bd1bf3f240ec0d335420fae93f0d7d" upstream="LV.AU.0.0.1_rb1.12"/>
+  <project name="quic/le/meta-qti-bsp" revision="7b0e76b4e6ccb442755ad052733482272e4c2d84" upstream="LV.AU.0.0.1_rb1.12" path="meta-qti-bsp"/>
+  <project name="quic/le/meta-qti-bt" path="disregard/poky/meta-qti-bt" revision="57203ee6431ade4e2d2c2f29167d0cc0e29e3196" upstream="LV.AU.0.0.1_rb1.12"/>
+  <project name="quic/le/meta-qti-core" path="disregard/poky/meta-qti-core" revision="50223cce1f422c87fafefa7ee83782bc06fc171a" upstream="LV.AU.0.0.1_rb1.12"/>
+  <project name="quic/le/meta-qti-data" path="disregard/poky/meta-qti-data" revision="f704b14ec790158a931c1fecba4e202ab6488b36" upstream="LV.AU.0.0.1_rb1.12"/>
+  <project name="quic/le/meta-qti-display" path="disregard/poky/meta-qti-display" revision="c0c57b183b6c89e07a16ea1231ba4045433d89a1" upstream="LV.AU.0.0.1_rb1.12"/>
+  <project name="quic/le/meta-qti-location" path="disregard/poky/meta-qti-location" revision="f25b5a52ade93fba662414f5aff84ea636e9d5e6" upstream="LV.AU.0.0.1_rb1.12"/>
+  <project name="quic/le/meta-qti-security" path="disregard/poky/meta-qti-security" revision="67d0e16f2ec5dadca5e30b8a4e1cba44fbc829b7" upstream="LV.AU.0.0.1_rb1.12"/>
+  <project name="quic/le/meta-qti-video" path="disregard/poky/meta-qti-video" revision="bbd44e3baefcfd88625e04070906e48d0c570a1d" upstream="LV.AU.0.0.1_rb1.12"/>
+  <project name="quic/le/meta-qti-wlan" path="disregard/poky/meta-qti-wlan" revision="4d16da85ea6228da628e5d70f068e94aa55f7250" upstream="LV.AU.0.0.1_rb1.12"/>
+  <project name="meta-ros" remote="caf-le" revision="72068b17e4192b51e09c8dc633805a35edac8701" upstream="refs/heads/meta-ros/master"/>
+  <project name="quic/automotive/platform/external/Open-AVB" path="external/open-avb" revision="884af8c1e9bab956fe1dc98efcc0d60ff918b169" upstream="LV.AU.0.0.1_rb1.12"/>
+  <project name="platform/external/dtc" path="external/dtc" revision="2b1d2a367990cdccd90b2c672033d6c29477fd72" upstream="LV.AU.0.0.1_rb1.12"/>
+  <project name="platform/external/libdrm" path="graphics/libdrm" revision="b404411b9b1842297341c82117e59898501d016b" upstream="LV.AU.0.0.1_rb1.12"/>
+  <project name="platform/external/libselinux" path="external/libselinux" revision="ee539d24828440eda6115da4f300937383c6a98d" upstream="LV.AU.0.0.1_rb1.12"/>
+  <project name="platform/external/libunwind" path="external/libunwind" revision="7ae792b4d98fb654b494675ba0f541bf2e664d55" upstream="LV.AU.0.0.1_rb1.12"/>
+  <project name="platform/external/safe-iop" path="external/safe-iop" revision="aa0725fb1da35e47676b6da30009322eb5ed59be" upstream="LV.AU.0.0.1_rb1.12"/>
+  <project name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8" revision="b6247baad501561826360e0b08b589a35313d2d6" upstream="LV.AU.0.0.1_rb1.12"/>
+  <project name="platform/hardware/libhardware" path="hardware/libhardware" revision="0b5318b10e60bb04d53bede738b4a70031874efa" upstream="LV.AU.0.0.1_rb1.12"/>
+  <project name="platform/hardware/qcom/audio" path="hardware/qcom/audio" revision="2fc513c92db96427c5598db0e1143ad094ca02ea" upstream="LV.AU.0.0.1_rb1.12"/>
+  <project name="platform/hardware/qcom/display" path="display/display-hal" revision="a4ccf4c686fb04f238c93f4dca8bcca8f39d617b" upstream="LV.AU.0.0.1_rb1.12"/>
+  <project name="quic/le/platform/hardware/qcom/gps" path="hardware/qcom/gps" revision="686a31b37dfacb6cff93c4fd265ac0abc16e65f3" upstream="LV.AU.0.0.1_rb1.12"/>
+  <project name="quic/le/platform/hardware/qcom/media" path="hardware/qcom/media" revision="ce2c49ea96d30a871975be884382d819c3f10dee" upstream="LV.AU.0.0.1_rb1.12"/>
+  <project name="platform/hardware/qcom/sensors" path="hardware/qcom/sensors/" revision="316ac841288ba45ef6886db31247ea7c33b905aa" upstream="LV.AU.0.0.1_rb1.12"/>
+  <project name="platform/hardware/qcom/thermal" path="disregard/platform/hardware/qcom/thermal" revision="7eb043428ce8407034a0c29246cadfa2be42e70e" upstream="LV.AU.0.0.1_rb1.12"/>
+  <project name="platform/hardware/qcom/wlan" path="hardware/qcom/wlan" revision="c0d0e6228d5b9c44b792885bfb520cd06c35c5e1" upstream="LV.AU.0.0.1_rb1.12"/>
+  <project name="quic/le/platform/system/core" path="system/core" revision="0ce6d2891cba829b4b11a1ac153b9e283a7c6eb3" upstream="LV.AU.0.0.1_rb1.12"/>
+  <project name="platform/system/extras" path="system/extras" revision="8ef7dae5e1a207c4683e7ea3ee534ea94d13787a" upstream="LV.AU.0.0.1_rb1.12"/>
+  <project name="platform/system/libufdt" path="system/libufdt" revision="f83eb5a3630ffd5842949451c4fe0c235d32defa" upstream="LV.AU.0.0.1_rb1.12"/>
+  <project name="platform/vendor/opensource/audio-kernel" path="vendor/qcom/opensource/audio-kernel" revision="5c0cfc4e8231231cc061d3bd41635f0d484ec2ce" upstream="LV.AU.0.0.1_rb1.12"/>
+  <project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" path="disregard/vendor/qcom/opensource/data-ipa-cfg-mgr" revision="ca7f4ff042a79f040e4871602996199be87f11c8" upstream="LV.AU.0.0.1_rb1.12"/>
+  <project name="platform/vendor/qcom-opensource/data-kernel" path="data-kernel" revision="5ff32558b754b5acb4b0d5299f984ba2b463041f" upstream="LV.AU.0.0.1_rb1.12"/>
+  <project name="quic/qsdk/platform/vendor/qcom-opensource/dataservices" path="disregard/vendor/qcom/opensource/dataservices" revision="0619069e753dbb891dd18220bec8b23d39f94f57" upstream="LV.AU.0.0.1_rb1.12"/>
+  <project name="platform/vendor/qcom-opensource/display-commonsys-intf" path="vendor/qcom/opensource/commonsys-intf/display" revision="3cd79bf23d2a5882ce274dcf3cd44af81fa97c51" upstream="LV.AU.0.0.1_rb1.12"/>
+  <project name="platform/vendor/qcom-opensource/hsi2s-kernel" path="vendor/qcom/opensource/hsi2s-kernel" revision="74ee5735ac151a97281c8f6c49b91476f552095a" upstream="LV.AU.0.0.1_rb1.12"/>
+  <project name="quic/le/platform/vendor/qcom-opensource/le-framework" path="frameworks" revision="3e1cc17bee975eb980fb8678141e586102b63bea" upstream="LV.AU.0.0.1_rb1.12"/>
+  <project name="platform/vendor/qcom-opensource/location" path="qcom-opensource/location" revision="5fa7f13ee28f9c01384cd94d39f880c2ece72852" upstream="LV.AU.0.0.1_rb1.12"/>
+  <project name="platform/vendor/qcom-opensource/mm-audio" path="vendor/qcom/opensource/mm-audio" revision="3b4c693accfc3b589987efae5a1b53b07eacc0d7" upstream="LV.AU.0.0.1_rb1.12"/>
+  <project name="platform/vendor/qcom-opensource/ptp-virtual" path="vendor/qcom/opensource/ptp-virtual" revision="1a1af747c8b04603d525f12168a353f724b08197" upstream="LV.AU.0.0.1_rb1.12"/>
+  <project name="quic/le/platform/vendor/qcom-opensource/shortcut-fe" path="disregard/shortcut-fe" revision="58004e39b95f66c9551139adf698cb14e3791dd8" upstream="LV.AU.0.0.1_rb1.12"/>
+  <project name="quic/le/platform/vendor/qcom-opensource/synergy" path="synergy/synergy-opensource" revision="c49ed8a0798e4f2c056fa0a9624426070342cf26" upstream="LV.AU.0.0.1_rb1.12"/>
+  <project name="platform/vendor/qcom-opensource/time-services" path="disregard/vendor/qcom/opensource/time-services" revision="77f0a68daf84377e2c6b6e3a8bd970028e20dc26" upstream="LV.AU.0.0.1_rb1.12"/>
+  <project name="platform/vendor/qcom-opensource/usb" path="disregard/vendor/qcom/opensource/usb" revision="5b8d6188fe0267fc957eb7928011d7164be4ca05" upstream="LV.AU.0.0.1_rb1.12"/>
+  <project name="platform/vendor/qcom-opensource/wlan/fw-api" path="wlan/fw-api" revision="66a9bd7ae05fd2115bd469e80af22df30fad9441" upstream="LV.AU.0.0.1_rb1.12"/>
+  <project name="platform/vendor/qcom-opensource/wlan/qca-wifi-host-cmn" path="wlan/qca-wifi-host-cmn" revision="31a575b99ed5f56dad84729db562d2a741f56522" upstream="LV.AU.0.0.1_rb1.12"/>
+  <project name="platform/vendor/qcom-opensource/wlan/qcacld-3.0" path="wlan/qcacld-3.0" revision="4086348596020b026789ab66153a8fdc75fd7586" upstream="LV.AU.0.0.1_rb1.12"/>
+  <project name="platform/vendor/qcom-opensource/wlan/utils/sigma-dut" path="wlan/utils/sigma-dut" revision="98c4b198b3010fa27f88d45d5bb744be0e3df852" upstream="LV.AU.0.0.1_rb1.12"/>
+  <project name="platform/vendor/qcom/wlan" path="device/qcom/wlan" revision="725c948702f92d90b145b8380bc05a0f9059ed32" upstream="LV.AU.0.0.1_rb1.12"/>
+  <project name="quic/le/qcom-opensource/mdm-init" path="mdm-init" revision="a4a56d40b30ce76e3b43b67dd91bfbd38199494d" upstream="LV.AU.0.0.1_rb1.12"/>
+  <project name="quic/le/qti-conf" path="poky/build/conf" revision="5518f818df7523c1a8e6019d022a4c7d45f096bd" upstream="LV.AU.0.0.1_rb1.12"/>
+  <project name="quic/le/wayland/weston" path="graphics/weston" revision="8323d74e8bc7b0fdac78f4e87e758b7f759219cb" upstream="LV.AU.0.0.1_rb1.12"/>
+</manifest>
