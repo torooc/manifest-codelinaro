@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="git://codeaurora.org/quic/ype" name="caf-ype" review="null"/>
+  <remote fetch="https://source.codeaurora.org/" name="caf" review="codeaurora.org"/>
+  <default remote="caf" revision="LE.UM.3.2.1_rb1.9"/>
+  <project name="quic/le/OTA/build" revision="776ea0e9dd9e6cb9be9fd5d66ffd6ac61036d7d0" upstream="LE.UM.3.2.1_rb1.9" path="OTA/build"/>
+  <project name="quic/le/OTA/device/qcom/common" revision="463e7c6306029aa6080e8d807f07e179973d916c" upstream="LE.UM.3.2.1_rb1.9" path="OTA/device/qcom/common"/>
+  <project name="quic/le/OTA/external/bsdiff" revision="2f6c160807029d6b8eec0dfa490e49fbbf096ca2" upstream="LE.UM.3.2.1_rb1.9" path="OTA/external/bsdiff"/>
+  <project name="quic/le/OTA/platform/external/libdivsufsort" path="OTA/external/libdivsufsort" revision="70a94c7454df52eefe5da0a3cd1c10952742d3e6" upstream="LE.UM.3.2.1_rb1.9"/>
+  <project name="quic/le/OTA/recovery" revision="52545a17b49c29b8c7e4b1e498dd9c844de28e2d" upstream="LE.UM.3.2.1_rb1.9" path="OTA/recovery"/>
+  <project name="quic/le/OTA/system/core" revision="106cd1462a82356aa7b74b171aea62fcb98ca79a" upstream="LE.UM.3.2.1_rb1.9" path="OTA/system/core"/>
+  <project name="quic/le/OTA/system/extras" revision="4814452eebac0b1991fb80f634536d7a6130ef5f" upstream="LE.UM.3.2.1_rb1.9" path="OTA/system/extras"/>
+  <project name="abl/tianocore/edk2" path="bootable/bootloader/edk2" revision="34d47f302d35405d7c23e55bbde288ce575b157a" upstream="LE.UM.3.2.1_rb1.9"/>
+  <project name="external/yoctoproject.org/poky" path="poky" remote="caf-ype" revision="f5a57e939e626a5b7c6de5b51799ca602ed355ed" upstream="refs/heads/yocto/thud"/>
+  <project name="quic/filesystems/fs/external/mtd-utils" path="filesystems/mtd-utils" revision="4d32bde3e99ad9a2de2a1333235cabba179ceaa3" upstream="LE.UM.3.2.1_rb1.9"/>
+  <project name="kernel/msm-4.9" revision="e34517a450bb253c47b277ee111269d53fd3ecc3" upstream="LE.UM.3.2.1_rb1.9"/>
+  <project name="quic/le/mdm/reboot-daemon" path="mdm-ss-mgr/reboot-daemon" revision="786f011058c6ce1186e03e7b38b4701b0e1de5a2" upstream="LE.UM.3.2.1_rb1.9"/>
+  <project name="quic/le/meta-qti-audio" path="poky/meta-qti-audio" revision="dfc9002d7ea616abb508e2e97bceb6f55424ec8f" upstream="LE.UM.3.2.1_rb1.9"/>
+  <project name="quic/le/meta-qti-auto" path="poky/meta-qti-auto" revision="3646f807417d5b08283bf852119bc0b9c7bd8212" upstream="LE.UM.3.2.1_rb1.9"/>
+  <project name="quic/le/meta-qti-auto-sepolicy" path="poky/meta-qti-auto-sepolicy" revision="2de59a2ab22af70f2ba8f32ce10cb57fed050be4" upstream="LE.UM.3.2.1_rb1.9"/>
+  <project name="quic/le/meta-qti-bsp" path="poky/meta-qti-bsp" revision="8567e281a99e2d9cd99eb9a9637e9d3e16331702" upstream="LE.UM.3.2.1_rb1.9"/>
+  <project name="quic/le/meta-qti-bt" path="poky/meta-qti-bt" revision="cc21338c128e785070377d1699e49ef00e73ca47" upstream="LE.UM.3.2.1_rb1.9"/>
+  <project name="quic/le/meta-qti-core" path="poky/meta-qti-core" revision="0c030cf1ac59026480541277021b9b7e0ba1877c" upstream="LE.UM.3.2.1_rb1.9"/>
+  <project name="quic/le/meta-qti-data" path="poky/meta-qti-data" revision="1fd13018fd9aaf5c1bd5bd269e50fe144cda1f05" upstream="LE.UM.3.2.1_rb1.9"/>
+  <project name="quic/le/meta-qti-location" path="poky/meta-qti-location" revision="3348324d3d1930573c1ff1dacb6ad43b2e288929" upstream="LE.UM.3.2.1_rb1.9"/>
+  <project name="quic/le/meta-qti-sepolicy" path="poky/meta-qti-sepolicy" revision="27ba1c9bf901baab47028426b062153d44eeb3d7" upstream="LE.UM.3.2.1_rb1.9"/>
+  <project name="quic/le/meta-qti-ss-mgr" path="poky/meta-qti-ss-mgr" revision="982117f9f9735d4f9c69ca1647bb88cada8fe769" upstream="LE.UM.3.2.1_rb1.9"/>
+  <project name="quic/le/meta-qti-ssdk" path="poky/meta-qti-ssdk" revision="5820d3d0e0e20ef323f16d3824fbac5e62521b49" upstream="LE.UM.3.2.1_rb1.9"/>
+  <project name="quic/le/meta-qti-telsdk" path="poky/meta-qti-telsdk" revision="cbb1344f3450256575f9537178daf5a4bb8258ac" upstream="LE.UM.3.2.1_rb1.9"/>
+  <project name="quic/le/meta-qti-wlan" path="poky/meta-qti-wlan" revision="8710f2c7f91105d18004ef0866057ab10b60c75c" upstream="LE.UM.3.2.1_rb1.9"/>
+  <project name="quic/le/meta-selinux" path="poky/meta-selinux" revision="2c176184de59d1b991deade17613758928fe3606" upstream="LE.UM.3.2.1_rb1.9"/>
+  <project name="quic/le/oss/lklm/qca-ssdk" path="qcom-opensource/qca-ssdk" revision="e570596bfdfad69f9913d2d22bb37b739b3a57c1" upstream="LE.UM.3.2.1_rb1.9"/>
+  <project name="quic/le/oss/ssdk-shell" path="qcom-opensource/qca-ssdk-shell" revision="ffbf8a898fd8672b13f043ad3bec75d6529a4e0d" upstream="LE.UM.3.2.1_rb1.9"/>
+  <project name="quic/automotive/platform/external/Open-AVB" path="external/open-avb" revision="54b0d7450733b0e8dda30dfcb77343fcc9dc5f84" upstream="LE.UM.3.2.1_rb1.9"/>
+  <project name="platform/external/compat-wireless" path="external/compat-wireless" revision="0143c07f3b1594a9259b7a0fe041deb5f4db8099" upstream="LE.UM.3.2.1_rb1.9"/>
+  <project name="platform/external/libselinux" path="external/libselinux" revision="ee539d24828440eda6115da4f300937383c6a98d" upstream="LE.UM.3.2.1_rb1.9"/>
+  <project name="platform/external/safe-iop" path="external/safe-iop" revision="aa0725fb1da35e47676b6da30009322eb5ed59be" upstream="LE.UM.3.2.1_rb1.9"/>
+  <project name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8" revision="0401852a5c4c90a00b4d9a96d4fd21121bb144c4" upstream="LE.UM.3.2.1_rb1.9"/>
+  <project name="platform/hardware/libhardware" path="hardware/libhardware" revision="a8822fca7e4bb38eb77a17c407b8c984a1a955bf" upstream="LE.UM.3.2.1_rb1.9"/>
+  <project groups="qcom,default" name="platform/hardware/qcom/audio" path="hardware/qcom/audio" revision="ec2888f0f7d251ab73b8002b2ec2f9c0f64b1e37" upstream="LE.UM.3.2.1_rb1.9"/>
+  <project name="platform/hardware/qcom/gps" path="hardware/qcom/gps" revision="d9182f76238d675d1f1029732eba4dd75fc22361" upstream="LE.UM.3.2.1_rb1.9"/>
+  <project name="platform/hardware/qcom/sensors" path="hardware/qcom/sensors/" revision="57b6a22bff6b0609aa1bd682272aa7f028a17fce" upstream="LE.UM.3.2.1_rb1.9"/>
+  <project name="platform/hardware/ril" path="telux/services/ril" revision="c1f7678d31d4681035e8327393653c90fdf141be" upstream="LE.UM.3.2.1_rb1.9"/>
+  <project name="quic/le/platform/init_mss" path="mdm-ss-mgr/init_mss" revision="e1db20af1ebf5d99429161e3ad213d75acfb696c" upstream="LE.UM.3.2.1_rb1.9"/>
+  <project name="quic/le/platform/open-source/telematics-apps" path="telematics/apps/open-source" revision="08f968349d80509d4787eb8673bd7cad5ddb3e88" upstream="LE.UM.3.2.1_rb1.9"/>
+  <project name="platform/system/core" path="system/core" revision="4a847e0e9790f0050c1e4e0ef4ad242ff0fd232b" upstream="LE.UM.3.2.1_rb1.9"/>
+  <project name="platform/system/extras" path="system/extras" revision="8ef7dae5e1a207c4683e7ea3ee534ea94d13787a" upstream="LE.UM.3.2.1_rb1.9"/>
+  <project name="platform/vendor/opensource/audio-kernel" path="vendor/qcom/opensource/audio-kernel" revision="5b6b121ef5154ff67cc700229d5a4a54c39647fe" upstream="LE.UM.3.2.1_rb1.9"/>
+  <project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" path="data-ipa-cfg-mgr" revision="14b2819c752e030e06d72ac6cad51aea90712ff3" upstream="LE.UM.3.2.1_rb1.9"/>
+  <project name="platform/vendor/qcom-opensource/data-kernel" path="data-kernel" revision="6b5b476a22e527dee5fac4cd386f0753f4fa84cb" upstream="LE.UM.3.2.1_rb1.9"/>
+  <project name="platform/vendor/qcom-opensource/dataservices" path="data-oss" revision="4eedd37b3f1253f37b751cf0f7ff682042820142" upstream="LE.UM.3.2.1_rb1.9"/>
+  <project name="platform/vendor/qcom-opensource/kernel-tests/mm-audio" path="qcom-opensource/mm-audio" revision="f567044e51302584a4bda3d6cbca5b500493ed63" upstream="LE.UM.3.2.1_rb1.9"/>
+  <project name="quic/le/platform/vendor/qcom-opensource/le-framework" path="frameworks" revision="530bce2f0964baa91bdf1ea06df3c7e5e5799f3a" upstream="LE.UM.3.2.1_rb1.9"/>
+  <project name="platform/vendor/qcom-opensource/location" path="qcom-opensource/location" revision="a7724cdc9e654f8ee52a59296ca52863b65da63b" upstream="LE.UM.3.2.1_rb1.9"/>
+  <project name="quic/le/platform/vendor/qcom-opensource/shortcut-fe" path="shortcut-fe" revision="3623f52fa75910d6dafbe53277ec29a926b26114" upstream="LE.UM.3.2.1_rb1.9"/>
+  <project name="quic/le/platform/vendor/qcom-opensource/snaptel-sdk" path="telux/public" revision="b26e017dce7ea4a8e1126c6756fce5713a8fd0d8" upstream="LE.UM.3.2.1_rb1.9"/>
+  <project name="quic/le/platform/vendor/qcom-opensource/synergy" path="synergy/synergy-opensource" revision="c49ed8a0798e4f2c056fa0a9624426070342cf26" upstream="LE.UM.3.2.1_rb1.9"/>
+  <project name="quic/le/platform/vendor/qcom-opensource/tcp-splice" path="tcp-splice" revision="c0bdfef8f4786c2460bbc3162572fcefed5a9718" upstream="LE.UM.3.2.1_rb1.9"/>
+  <project name="platform/vendor/qcom-opensource/wlan/fw-api" path="wlan/fw-api" revision="90f9bf939ad2dbe1f30d96f3f02faf05e32d30b9" upstream="LE.UM.3.2.1_rb1.9"/>
+  <project name="platform/vendor/qcom-opensource/wlan/qca-wifi-host-cmn" path="wlan/qca-wifi-host-cmn" revision="e131d31b8bb1e1c56f3b39d1e750ce4d5ef4faf4" upstream="LE.UM.3.2.1_rb1.9"/>
+  <project name="platform/vendor/qcom-opensource/wlan/qcacld-3.0" path="wlan/qcacld-3.0" revision="3fac0ecfcdcb7d31f7134b2d66a1687f38699395" upstream="LE.UM.3.2.1_rb1.9"/>
+  <project name="platform/vendor/qcom-opensource/wlan/tools" path="disregard/vendor/opensource/wlan/tools" revision="e681d31aec6513fcc414bd2f15fec9a0914bd173" upstream="LE.UM.3.2.1_rb1.9"/>
+  <project name="platform/vendor/qcom-opensource/wlan/utils/sigma-dut" path="wlan/utils/sigma-dut" revision="98c4b198b3010fa27f88d45d5bb744be0e3df852" upstream="LE.UM.3.2.1_rb1.9"/>
+  <project name="platform/vendor/qcom/wlan" path="device/qcom/wlan" revision="31a1933d13aadf0b61363c81b1b61e2fc0211730" upstream="LE.UM.3.2.1_rb1.9"/>
+  <project name="quic/le/pmipv6" revision="e1767066b85009c636668f768bf8a2e1a1695ba6" upstream="LE.UM.3.2.1_rb1.9" path="pmipv6"/>
+  <project name="quic/le/qcom-opensource/mdm-init" path="mdm-init" revision="ac317b5db1a39368a74c3b4005b945f1c8a9876a" upstream="LE.UM.3.2.1_rb1.9"/>
+  <project name="quic/le/qti-conf" path="poky/build/conf" revision="baa868967b4f301d5c731c6448c905fbf90e78d2" upstream="LE.UM.3.2.1_rb1.9"/>
+</manifest>
