@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="git://codeaurora.org/external/imx" name="caf-imx" review="null"/>
+  <remote fetch="git://codeaurora.org/quic/ype" name="caf-ype" review="null"/>
+  <remote fetch="https://source.codeaurora.org/" name="caf" review="codeaurora.org"/>
+  <default remote="caf" revision="refs/heads/master"/>
+  <project name="external/github.com/meta-qt5/meta-qt5" path="sources/meta-qt5" remote="caf-ype" revision="32bb7d18a08d1c48873d7ab6332d4cc3815a4dff"/>
+  <project name="external/openembedded.org/meta-openembedded" path="sources/meta-openembedded" remote="caf-ype" revision="dacfa2b1920e285531bec55cd2f08743390aaf57"/>
+  <project name="external/yoctoproject.org/poky" path="sources/poky" remote="caf-ype" revision="0ec241873367e18f5371a3ad9aca1e2801dcd4ee"/>
+  <project name="meta-fsl-bsp-release" path="sources/meta-fsl-bsp-release" remote="caf-imx" revision="d65692ecb3a4136fc1cc137152634e8633ddb3c6"/>
+  <project dest-branch="refs/heads/connectivity-service.lnx.1.0.2" name="quic/le/meta-qti-connectivity" path="sources/meta-qti-connectivity" revision="c86a542097b22436e61c0705276df86112c4e553" upstream="refs/heads/connectivity-service.lnx.1.0.2"/>
+  <project dest-branch="refs/heads/wlan-service.lnx.1.3" name="platform/external/wpa_supplicant_8" path="sources/wlan-opensource/wpa_supplicant_8" revision="0401852a5c4c90a00b4d9a96d4fd21121bb144c4" upstream="refs/heads/wlan-service.lnx.1.3"/>
+  <project dest-branch="refs/heads/connectivity-service.lnx.1.0.2" name="platform/vendor/qcom-opensource/wlan-cnss-core" path="sources/wlan-opensource/wlan-cnss-core" revision="31465759db53fa3115efa7b368e79baefbfc2ac4" upstream="refs/heads/connectivity-service.lnx.1.0.2"/>
+  <project dest-branch="refs/heads/wlan-api.lnx.1.0" name="platform/vendor/qcom-opensource/wlan/fw-api" path="sources/wlan-opensource/fw-api" revision="90f9bf939ad2dbe1f30d96f3f02faf05e32d30b9" upstream="refs/heads/wlan-api.lnx.1.0"/>
+  <project dest-branch="refs/heads/wlan-cmn.driver.lnx.2.0" name="platform/vendor/qcom-opensource/wlan/qca-wifi-host-cmn" path="sources/wlan-opensource/qca-wifi-host-cmn" revision="162b129a018bf5652533926e3cc8e6abee195ff1" upstream="refs/heads/wlan-cmn.driver.lnx.2.0"/>
+  <project dest-branch="refs/heads/wlan-cld3.driver.lnx.2.0" name="platform/vendor/qcom-opensource/wlan/qcacld-3.0" path="sources/wlan-opensource/qcacld-3.0" revision="91f22a0bb7c8bbb570d22e8cefa3b910b9004f8e" upstream="refs/heads/wlan-cld3.driver.lnx.2.0"/>
+  <project dest-branch="refs/heads/wlan-tools.lnx.1.0" name="platform/vendor/qcom-opensource/wlan/tools" path="sources/wlan-opensource/dsrc-tool" revision="e681d31aec6513fcc414bd2f15fec9a0914bd173" upstream="refs/heads/wlan-tools.lnx.1.0"/>
+  <project dest-branch="refs/heads/wlan-service.lnx.1.3" name="platform/vendor/qcom-opensource/wlan/utils/sigma-dut" path="sources/wlan-opensource/sigma-dut" revision="98c4b198b3010fa27f88d45d5bb744be0e3df852" upstream="refs/heads/wlan-service.lnx.1.3"/>
+  <project dest-branch="refs/heads/wlan-tools.lnx.1.0" name="quic/le/qcom-opensource/mdm-init" path="sources/wlan-opensource/mdm-init" revision="068157902c3ad71b03f4af6e1b289038f459a582" upstream="refs/heads/wlan-tools.lnx.1.0"/>
+</manifest>
