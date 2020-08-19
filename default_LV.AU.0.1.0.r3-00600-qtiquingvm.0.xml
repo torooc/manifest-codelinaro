@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="git://codeaurora.org/quic/le" name="caf-le" review="null"/>
+  <remote fetch="git://codeaurora.org/quic/ype" name="caf-ype" review="null"/>
+  <remote fetch="https://source.codeaurora.org" name="caf" review="codeaurora.org"/>
+  <default remote="caf" revision="refs/heads/master"/>
+  <project name="AGL/meta-agl" path="meta-agl" remote="caf-le" revision="59f37556d15e7e75a0be2ba6695bc0c3fdd5df64" upstream="refs/heads/automotivelinux/halibut"/>
+  <project name="AGL/meta-agl-demo" path="meta-agl-demo" remote="caf-le" revision="acc3a8ec6102fb9bad15ad31f0c1afcdf40cb772" upstream="refs/heads/automotivelinux/halibut"/>
+  <project name="AGL/meta-agl-devel" path="meta-agl-devel" remote="caf-le" revision="0c48b622c53059cb0da320c83747056a766e3364" upstream="refs/heads/magl/halibut"/>
+  <project name="AGL/meta-agl-extra" path="meta-agl-extra" remote="caf-le" revision="da5c116d856302db07954f20e2493636eb7ea5a2" upstream="refs/heads/meta-agl-extra/halibut"/>
+  <project name="external/github.com/meta-clang" path="meta-clang" remote="caf-ype" revision="2c1619639ee5b4331c78c794fdfd2a0d5d778b2f" upstream="refs/heads/movingly/pyro"/>
+  <project name="external/github.com/meta-qt5/meta-qt5" path="meta-qt5" remote="caf-ype" revision="81937713f774d7dea854b22987b3ef1ab1f1cdbe" upstream="refs/heads/github.com/thud"/>
+  <project name="external/openembedded.org/meta-openembedded" path="meta-openembedded" remote="caf-ype" revision="4cd3a39f22a2712bfa8fc657d09fe2c7765a4005" upstream="refs/heads/openembeded.org/thud"/>
+  <project name="external/yoctoproject.org/meta-gplv2" path="meta-gplv2" remote="caf-ype" revision="aabc30f3bd03f97326fb8596910b94639fea7575" upstream="refs/heads/meta-gplv2/thud"/>
+  <project name="external/yoctoproject.org/meta-security" path="meta-security" remote="caf-ype" revision="31dc4e7532fa7a82060e0b50e5eb8d0414aa7e93" upstream="refs/heads/yocto/thud"/>
+  <project name="external/yoctoproject.org/meta-virtualization" path="meta-virtualization" remote="caf-ype" revision="9e8c0c96b443828a255e7d6ca6291598347672ac" upstream="refs/heads/yocto/thud"/>
+  <project name="external/yoctoproject.org/poky" path="poky" remote="caf-ype" revision="50f33d3bfebcbfb1538d932fb487cfd789872026" upstream="refs/heads/yocto/thud"/>
+  <project name="quic/le/meta-qti-bsp" revision="refs/heads/yocto.lnx.3.0.2.r3-rel" path="meta-qti-bsp"/>
+  <project name="meta-ros" remote="caf-le" revision="72068b17e4192b51e09c8dc633805a35edac8701" upstream="refs/heads/meta-ros/master"/>
+  <project name="quic/le/qti-conf" path="poky/build/conf" revision="refs/heads/yocto.lnx.3.0.2.r3-rel"/>
+</manifest>
