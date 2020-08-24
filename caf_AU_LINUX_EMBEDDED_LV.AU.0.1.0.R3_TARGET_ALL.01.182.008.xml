@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="git://codeaurora.org/quic/le" name="caf-le" review="null"/>
+  <remote fetch="git://codeaurora.org/quic/ype" name="caf-ype" review="null"/>
+  <remote fetch="https://source.codeaurora.org/" name="caf" review="codeaurora.org"/>
+  <default remote="caf" revision="refs/heads/master"/>
+  <project name="external/github.com/meta-clang" path="meta-clang" remote="caf-ype" revision="14a52c3633e8f32fdf8bb5a259a41f5cfb8cc535"/>
+  <project name="external/github.com/meta-qt5/meta-qt5" path="meta-qt5" remote="caf-ype" revision="5144a99a696a8a72c0765ea0e8be8ceafaa78f85"/>
+  <project name="external/openembedded.org/meta-openembedded" path="meta-openembedded" remote="caf-ype" revision="8a72d29e0876830ffd96b85d7d0308302eb07a5d"/>
+  <project name="external/yoctoproject.org/meta-gplv2" path="meta-gplv2" remote="caf-ype" revision="a8da8eb127a56561bf633ab53bec57fb5dbba537"/>
+  <project name="external/yoctoproject.org/meta-security" path="meta-security" remote="caf-ype" revision="217fadb03da925757b236cb91ba9807e3b2bbd6e"/>
+  <project name="external/yoctoproject.org/meta-virtualization" path="meta-virtualization" remote="caf-ype" revision="5c2de3daedd3f65171b9debf938683ce6e7746ea" upstream="refs/heads/yocto/thud"/>
+  <project name="external/yoctoproject.org/poky" path="poky" remote="caf-ype" revision="febbe2944c0c4a04b85fa98fdc261186115954d8"/>
+  <project name="quic/le/meta-qti-bsp" revision="b7b732aca49ac019a2fe85ed73d862f33e414aab" upstream="refs/heads/yocto.lnx.3.0.2.r3-rel" path="meta-qti-bsp"/>
+  <project name="meta-ros" remote="caf-le" revision="72068b17e4192b51e09c8dc633805a35edac8701" upstream="refs/heads/meta-ros/master"/>
+  <project name="quic/le/qti-conf" path="poky/build/conf" revision="a45c3db8988e8427dc7de82fad7da3d291614785" upstream="refs/heads/yocto.lnx.3.0.2.r3-rel"/>
+</manifest>
