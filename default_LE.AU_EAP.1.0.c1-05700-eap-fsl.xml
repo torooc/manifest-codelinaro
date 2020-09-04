@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="git://codeaurora.org/quic/ype" name="caf-ype" review="null"/>
+  <remote fetch="https://source.codeaurora.org" name="caf" review="codeaurora.org"/>
+  <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
+  <default remote="caf" revision="refs/heads/master"/>
+  <project dest-branch="refs/heads/mdm-eap.lnx.2.0.c1" name="quic/le/eap-qti-kernel" path="sources/eap-qti-kernel" revision="93c78cf7f6bd00565bb275b6d4b14d7e1a7cae68" upstream="refs/heads/mdm-eap.lnx.2.0.c1"/>
+  <project name="external/openembedded.org/meta-openembedded" path="sources/meta-openembedded" remote="caf-ype" revision="8760facba1bceb299b3613b8955621ddaa3d4c3f" upstream="refs/heads/openembeded.org/sumo"/>
+  <project name="external/yoctoproject.org/poky" path="sources/poky" remote="caf-ype" revision="58e82c451071d0e257da6088cf643e636282084c" upstream="refs/heads/yocto/sumo"/>
+  <project name="meta-freescale" path="sources/meta-freescale" remote="yocto" revision="27ca94f8a4336790ba117b4298566f6820e7e74c" upstream="refs/heads/sumo"/>
+  <project dest-branch="refs/heads/mdm-eap.lnx.2.0.c1" name="quic/le/meta-qti-eap" path="sources/meta-qti-eap" revision="ade794d32041adcf334449f6dc48b66ea3a7fc27" upstream="refs/heads/mdm-eap.lnx.2.0.c1"/>
+  <project dest-branch="refs/heads/location.lnx.4.0.c11" name="platform/hardware/qcom/gps" path="hardware/qcom/gps" revision="4dae0e5458eb7c62fa09bcabf1cb15a204146e33" upstream="refs/heads/location.lnx.4.0.c11"/>
+  <project dest-branch="refs/heads/telsdk.lnx.2.0.c2" name="platform/hardware/ril" path="telux/services/ril" revision="5bcdd2d5592f77d41068dbc712d277f459db77f1" upstream="refs/heads/telsdk.lnx.2.0.c2"/>
+  <project dest-branch="refs/heads/telsdk.lnx.2.0.c2" name="quic/le/platform/open-source/telematics-apps" path="telematics/apps/open-source" revision="08f968349d80509d4787eb8673bd7cad5ddb3e88" upstream="refs/heads/telsdk.lnx.2.0.c2"/>
+  <project dest-branch="refs/heads/data.lnx.1.11.c1" name="platform/vendor/qcom-opensource/dataservices" path="vendor/qcom/opensource/dataservices" revision="4eedd37b3f1253f37b751cf0f7ff682042820142" upstream="refs/heads/data.lnx.1.11.c1"/>
+  <project dest-branch="refs/heads/location.lnx.4.0.c11" name="platform/vendor/qcom-opensource/location" path="vendor/qcom/opensource/location" revision="dd4951dd0fee2844b7983afe14c8853fc2151bb0" upstream="refs/heads/location.lnx.4.0.c11"/>
+  <project dest-branch="refs/heads/telsdk.lnx.2.0.c2" name="quic/le/platform/vendor/qcom-opensource/snaptel-sdk" path="telux/public" revision="fde54bc5fd9bd43fb09a28b8d8ae1ad68f89fb39" upstream="refs/heads/telsdk.lnx.2.0.c2"/>
+</manifest>
