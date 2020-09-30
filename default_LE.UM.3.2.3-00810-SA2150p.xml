@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="git://codeaurora.org/quic/ype" name="caf-ype" review="null"/>
+  <remote fetch="https://source.codeaurora.org" name="caf" review="codeaurora.org"/>
+  <default remote="caf" revision="LE.UM.3.2.3_rb1.4"/>
+  <project name="quic/le/OTA/build" path="OTA/build"/>
+  <project name="quic/le/OTA/device/qcom/common" path="OTA/device/qcom/common"/>
+  <project name="quic/le/OTA/external/bsdiff" path="OTA/external/bsdiff"/>
+  <project name="quic/le/OTA/platform/external/libdivsufsort" path="OTA/external/libdivsufsort"/>
+  <project name="quic/le/OTA/recovery" path="OTA/recovery"/>
+  <project name="quic/le/OTA/system/core" path="OTA/system/core"/>
+  <project name="quic/le/OTA/system/extras" path="OTA/system/extras"/>
+  <project name="quic/le/abl/tianocore/edk2" path="bootable/bootloader/edk2"/>
+  <project name="quic/le/eap-qti-kernel" path="kernel/eap-qti-kernel"/>
+  <project name="external/yoctoproject.org/poky" path="poky" remote="caf-ype" revision="51f6145f8f99a02df1dad937684f014b0172e72a" upstream="refs/heads/yocto/thud"/>
+  <project name="quic/filesystems/fs/external/mtd-utils" path="filesystems/mtd-utils"/>
+  <project name="kernel/msm-4.14"/>
+  <project name="quic/le/mdm/reboot-daemon" path="mdm-ss-mgr/reboot-daemon"/>
+  <project name="quic/le/meta-qti-audio" path="poky/meta-qti-audio"/>
+  <project name="quic/le/meta-qti-auto" path="poky/meta-qti-auto"/>
+  <project name="quic/le/meta-qti-auto-sepolicy" path="poky/meta-qti-auto-sepolicy"/>
+  <project name="quic/le/meta-qti-bsp" path="poky/meta-qti-bsp"/>
+  <project name="quic/le/meta-qti-core" path="poky/meta-qti-core"/>
+  <project name="quic/le/meta-qti-data" path="poky/meta-qti-data"/>
+  <project name="quic/le/meta-qti-eap" path="poky/meta-qti-eap"/>
+  <project name="quic/le/meta-qti-security" path="poky/meta-qti-security"/>
+  <project name="quic/le/meta-qti-sepolicy" path="poky/meta-qti-sepolicy"/>
+  <project name="quic/le/meta-qti-ss-mgr" path="poky/meta-qti-ss-mgr"/>
+  <project name="quic/le/meta-selinux" path="poky/meta-selinux"/>
+  <project name="quic/automotive/platform/external/Open-AVB" path="external/open-avb"/>
+  <project name="platform/external/compat-wireless" path="external/compat-wireless"/>
+  <project name="platform/external/libselinux" path="external/libselinux"/>
+  <project name="platform/external/safe-iop" path="external/safe-iop"/>
+  <project name="platform/hardware/libhardware" path="hardware/libhardware"/>
+  <project groups="qcom,default" name="platform/hardware/qcom/audio" path="hardware/qcom/audio"/>
+  <project name="platform/hardware/qcom/gps" path="hardware/qcom/gps"/>
+  <project name="platform/hardware/ril" path="telux/services/ril"/>
+  <project name="quic/le/platform/init_mss" path="mdm-ss-mgr/init_mss"/>
+  <project name="quic/le/platform/open-source/telematics-apps" path="telematics/apps/open-source"/>
+  <project name="platform/system/core" path="system/core"/>
+  <project name="platform/system/extras" path="system/extras"/>
+  <project name="platform/vendor/opensource/audio-kernel" path="vendor/qcom/opensource/audio-kernel"/>
+  <project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" path="data-ipa-cfg-mgr"/>
+  <project name="platform/vendor/qcom-opensource/data-kernel" path="data-kernel"/>
+  <project name="platform/vendor/qcom-opensource/dataservices" path="vendor/qcom/opensource/dataservices"/>
+  <project name="platform/vendor/qcom-opensource/kernel-tests/mm-audio" path="qcom-opensource/mm-audio"/>
+  <project name="platform/vendor/qcom-opensource/location" path="vendor/qcom/opensource/location"/>
+  <project name="quic/le/platform/vendor/qcom-opensource/shortcut-fe" path="shortcut-fe"/>
+  <project name="quic/le/platform/vendor/qcom-opensource/snaptel-sdk" path="telux/public"/>
+  <project name="quic/le/platform/vendor/qcom-opensource/tcp-splice" path="tcp-splice"/>
+  <project name="quic/le/pmipv6" path="pmipv6"/>
+  <project name="quic/le/pulseaudio" path="external/pulseaudio"/>
+  <project name="quic/le/qti-conf" path="poky/build/conf"/>
+</manifest>
