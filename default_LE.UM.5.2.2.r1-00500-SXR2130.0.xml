@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="git://codeaurora.org/quic/ype" name="caf-ype" review="null"/>
+  <remote fetch="https://source.codeaurora.org" name="caf" review="codeaurora.org"/>
+  <default remote="caf" revision="refs/heads/LE.UM.5.2.2.r1"/>
+  <project name="quic/le/OTA/build" path="src/OTA/build" revision="refs/heads/le-ota.lnx.1.0.r17-rel"/>
+  <project name="quic/le/OTA/device/qcom/common" path="src/OTA/device/qcom/common" revision="refs/heads/le-ota.lnx.1.0.r17-rel"/>
+  <project name="quic/le/OTA/external/bsdiff" path="src/OTA/external/bsdiff" revision="refs/heads/le-ota.lnx.1.0.r17-rel"/>
+  <project name="quic/le/OTA/platform/external/libdivsufsort" path="src/OTA/external/libdivsufsort" revision="refs/heads/le-ota.lnx.1.0.r17-rel"/>
+  <project name="quic/le/OTA/recovery" path="src/OTA/recovery" revision="refs/heads/le-ota.lnx.1.0.r17-rel"/>
+  <project name="quic/le/OTA/system/core" path="src/OTA/system/core" revision="refs/heads/le-ota.lnx.1.0.r17-rel"/>
+  <project name="quic/le/OTA/system/extras" path="src/OTA/system/extras" revision="refs/heads/le-ota.lnx.1.0.r17-rel"/>
+  <project name="quic/le/abl/tianocore/edk2" path="src/bootable/bootloader/edk2" revision="refs/heads/iot-uefi.lnx.1.9.r6-rel"/>
+  <project name="external/openembedded.org/meta-openembedded" path="poky/meta-openembedded" remote="caf-ype" revision="refs/heads/openembeded.org/dunfell"/>
+  <project name="external/openembedded.org/meta-python2" path="poky/meta-python2" remote="caf-ype" revision="refs/heads/openembeded.org/dunfell"/>
+  <project name="external/yoctoproject.org/poky" path="poky" remote="caf-ype" revision="569b1f5d67c57de957e243997c53ec2f81dc8dfe" upstream="refs/heads/yocto/dunfell"/>
+  <project name="quic/filesystems/fs/external/mtd-utils" path="src/filesystems/mtd-utils" revision="refs/heads/core-technologies.lnx.2.0.r75-rel"/>
+  <project name="quic/le/kernel/build" path="src/device/qcom/kernelscripts" revision="refs/heads/kernel.lnx.4.19.r14-rel"/>
+  <project groups="cyborg" name="kernel/msm-4.19" path="src/kernel/msm-4.19" revision="refs/heads/kernel.lnx.4.19.r14-rel"/>
+  <project name="quic/le/mdm/reboot-daemon" path="src/mdm-ss-mgr/reboot-daemon" revision="refs/heads/mdm-ss-mgr.lnx.1.0.r33-rel"/>
+  <project name="quic/le/meta-qti-bsp" path="poky/meta-qti-bsp" revision="refs/heads/yocto.lnx.4.0.r1-rel"/>
+  <project name="quic/le/meta-qti-core" path="poky/meta-qti-core" revision="refs/heads/core-technologies.lnx.2.0.r75-rel"/>
+  <project name="quic/le/meta-qti-data" path="poky/meta-qti-data" revision="refs/heads/data.lnx.1.1.1.r2-rel"/>
+  <project name="quic/le/meta-qti-distro" path="poky/meta-qti-distro" revision="refs/heads/yocto.lnx.4.0.r1-rel"/>
+  <project name="quic/le/meta-qti-sepolicy" path="poky/meta-qti-sepolicy" revision="refs/heads/le-sepolicy.lnx.4.0.r1-rel"/>
+  <project name="quic/le/meta-qti-ss-mgr" path="poky/meta-qti-ss-mgr" revision="refs/heads/mdm-ss-mgr.lnx.1.0.r33-rel"/>
+  <project name="quic/le/meta-qti-wlan" path="poky/meta-qti-wlan" revision="refs/heads/wlan-service.lnx.5.0.r31-rel"/>
+  <project name="quic/le/meta-selinux" path="poky/meta-selinux" revision="refs/heads/le-sepolicy.lnx.4.0.r1-rel"/>
+  <project name="platform/external/compat-wireless" path="src/external/compat-wireless" revision="refs/heads/data.lnx.1.1.1.r2-rel"/>
+  <project name="platform/external/safe-iop" path="src/external/safe-iop" revision="refs/heads/le-blast.lnx.1.4.r6-rel"/>
+  <project name="platform/external/wpa_supplicant_8" path="src/external/wpa_supplicant_8" revision="refs/heads/wlan-ks-service.lnx.2.0.r6-rel"/>
+  <project name="platform/hardware/libhardware" path="src/hardware/libhardware" revision="refs/heads/le-blast.lnx.1.4.r6-rel"/>
+  <project name="platform/hardware/qcom/wlan" path="src/hardware/qcom/wlan" revision="refs/heads/wlan-aosp.lnx.5.0.r31-rel"/>
+  <project name="quic/le/platform/init_mss" path="src/mdm-ss-mgr/init_mss" revision="refs/heads/mdm-ss-mgr.lnx.1.0.r33-rel"/>
+  <project name="platform/system/core" path="src/system/core" revision="refs/heads/le-blast.lnx.1.4.r6-rel"/>
+  <project name="platform/system/extras" path="src/system/extras" revision="refs/heads/le-blast.lnx.1.4.r6-rel"/>
+  <project groups="cyborg" name="platform/vendor/opensource/camera-kernel" path="src/kernel/msm-4.19/techpack/camera" revision="refs/heads/camera-kernel.lnx.1.0.r9-rel"/>
+  <project groups="cyborg" name="platform/vendor/opensource/display-drivers" path="src/kernel/msm-4.19/techpack/display" revision="refs/heads/display-kernel.lnx.4.19.r14-rel"/>
+  <project groups="cyborg" name="platform/vendor/opensource/video-driver" path="src/kernel/msm-4.19/techpack/video" revision="refs/heads/video-kernel.lnx.4.19.r13-rel"/>
+  <project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" path="src/data-ipa-cfg-mgr" revision="refs/heads/data.lnx.1.1.1.r2-rel"/>
+  <project name="platform/vendor/qcom-opensource/data-kernel" path="src/data-kernel" revision="refs/heads/data.lnx.1.1.1.r2-rel"/>
+  <project name="platform/vendor/qcom-opensource/dataservices" path="src/data-oss" revision="refs/heads/data.lnx.1.1.1.r2-rel"/>
+  <project name="quic/le/platform/vendor/qcom-opensource/le-framework" path="src/frameworks" revision="refs/heads/le-frameworks.lnx.2.1.r6-rel"/>
+  <project name="quic/le/platform/vendor/qcom-opensource/shortcut-fe" path="src/shortcut-fe" revision="refs/heads/data.lnx.1.1.1.r2-rel"/>
+  <project name="quic/le/platform/vendor/qcom-opensource/tcp-splice" path="src/tcp-splice" revision="refs/heads/data.lnx.1.1.1.r2-rel"/>
+  <project name="platform/vendor/qcom-opensource/wlan/fw-api" path="src/wlan/fw-api" revision="refs/heads/wlan-api.lnx.1.0.r57-rel"/>
+  <project name="platform/vendor/qcom-opensource/wlan/qca-wifi-host-cmn" path="src/wlan/qca-wifi-host-cmn" revision="refs/heads/wlan-cmn.driver.lnx.2.0.r23-rel"/>
+  <project name="platform/vendor/qcom-opensource/wlan/qcacld-3.0" path="src/wlan/qcacld-3.0" revision="refs/heads/wlan-cld3.driver.lnx.2.0.r23-rel"/>
+  <project name="platform/vendor/qcom-opensource/wlan/utils/sigma-dut" path="src/wlan/utils/sigma-dut" revision="refs/heads/wlan-service.lnx.5.0.r31-rel"/>
+  <project name="quic/le/platform/vendor/qcom/wlan" path="src/device/qcom/wlan" revision="refs/heads/wlan-service.lnx.5.0.r31-rel"/>
+  <project name="quic/le/pmipv6" path="src/pmipv6" revision="refs/heads/data.lnx.1.1.1.r2-rel"/>
+  <project name="quic/le/qcom-opensource/mdm-init" path="src/mdm-init" revision="refs/heads/wlan-tools.lnx.4.0.r76-rel"/>
+  <project name="quic/le/qti-conf" path="poky/qti-conf" revision="refs/heads/yocto.lnx.4.0.r1-rel">
+    <linkfile dest="setup-environment" src="set_bb_env.sh"/>
+  </project>
+</manifest>
