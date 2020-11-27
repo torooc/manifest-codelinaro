@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="https://source.codeaurora.org/" name="caf" review="codeaurora.org"/>
+  <default remote="caf" revision="refs/heads/master"/>
+  <project groups="aosp" name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant" revision="dd126ef344f32e4c9112487156563d9a513d60d1" upstream="refs/heads/q-aosp-automotive.c20.3"/>
+  <project groups="aosp" name="platform/frameworks/opt/net/wifi" path="frameworks/opt/net/wifi" revision="cea8a8679c0092726294471e7b628c6ef70fc46d" upstream="refs/heads/q-aosp-automotive.c20.3"/>
+  <project dest-branch="refs/heads/wlan-aosp.lnx.5.0.c20.3" name="platform/hardware/qcom/wlan" path="hardware/qcom/wlan" revision="0721b4b4a1bd4971e719ed56713f0258103978e6" upstream="refs/heads/wlan-aosp.lnx.5.0.c20.3"/>
+  <project groups="aosp" name="platform/system/connectivity/wificond" path="system/connectivity/wificond" revision="bf9bca09cf7a41087ca6d9d0ebbc2192b358df70" upstream="refs/heads/q-aosp-automotive.c20.3"/>
+  <project dest-branch="refs/heads/wlan-api.lnx.1.0.c20.3" name="platform/vendor/qcom-opensource/wlan/fw-api" path="vendor/qcom/opensource/wlan/fw-api" revision="6125a0b124f56cb359c0223cede19fac37cfffef" upstream="refs/heads/wlan-api.lnx.1.0.c20.3"/>
+  <project dest-branch="refs/heads/wlan-cmn.driver.lnx.2.0.c20.3" name="platform/vendor/qcom-opensource/wlan/qca-wifi-host-cmn" path="vendor/qcom/opensource/wlan/qca-wifi-host-cmn" revision="9f45a61ba9576fb1e526b180581c0f0c696cc973" upstream="refs/heads/wlan-cmn.driver.lnx.2.0.c20.3"/>
+  <project dest-branch="refs/heads/wlan-cld3.driver.lnx.2.0.c20.3" name="platform/vendor/qcom-opensource/wlan/qcacld-3.0" path="vendor/qcom/opensource/wlan/qcacld-3.0" revision="5714d17e5f820d47be56b3a6da6365226769d8e3" upstream="refs/heads/wlan-cld3.driver.lnx.2.0.c20.3"/>
+  <project dest-branch="refs/heads/wlan-service.lnx.5.0.c20.3" name="platform/vendor/qcom-opensource/wlan/utils/sigma-dut" path="vendor/qcom/opensource/wlan/utils/sigma-dut" revision="cccc07bb0e41ee5bf9c48293583b008e419ff1d0" upstream="refs/heads/wlan-service.lnx.5.0.c20.3"/>
+  <project dest-branch="refs/heads/wlan-service.lnx.5.0.c20.3" name="platform/vendor/qcom/wlan" path="device/qcom/wlan" revision="0ff0f8c4eac70f5f947131a92ed531d691c541e3" upstream="refs/heads/wlan-service.lnx.5.0.c20.3"/>
+</manifest>
