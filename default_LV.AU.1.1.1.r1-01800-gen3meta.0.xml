@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="git://codeaurora.org/quic/le" name="caf-le" review="null"/>
+  <remote fetch="git://codeaurora.org/quic/ype" name="caf-ype" review="null"/>
+  <remote fetch="https://source.codeaurora.org" name="caf" review="codeaurora.org"/>
+  <default remote="caf" revision="LV.AU.1.1.1.r1"/>
+  <project name="AGL/meta-agl" path="meta-agl" remote="caf-le" revision="59f37556d15e7e75a0be2ba6695bc0c3fdd5df64"/>
+  <project name="AGL/meta-agl-demo" path="meta-agl-demo" remote="caf-le" revision="acc3a8ec6102fb9bad15ad31f0c1afcdf40cb772"/>
+  <project name="AGL/meta-agl-devel" path="meta-agl-devel" remote="caf-le" revision="0c48b622c53059cb0da320c83747056a766e3364"/>
+  <project name="AGL/meta-agl-extra" path="meta-agl-extra" remote="caf-le" revision="da5c116d856302db07954f20e2493636eb7ea5a2"/>
+  <project name="quic/le/AGL/staging/agl-audio-plugin" path="vendor/qcom/opensource/agl-audio-plugin"/>
+  <project name="quic/le/abl/tianocore/edk2" path="bootable/bootloader/edk2"/>
+  <project name="external/github.com/meta-clang" path="meta-clang" remote="caf-ype" revision="14a52c3633e8f32fdf8bb5a259a41f5cfb8cc535"/>
+  <project name="external/github.com/meta-qt5/meta-qt5" path="meta-qt5" remote="caf-ype" revision="5144a99a696a8a72c0765ea0e8be8ceafaa78f85"/>
+  <project name="quic/ype/external/gstreamer.org/gstreamer/gst-omx" path="gstreamer/gst-omx" revision="LV.AU.0.2.0_rb1.9"/>
+  <project name="quic/ype/external/gstreamer.org/gstreamer/gst-plugins-bad" path="gstreamer/gst-plugins-bad" revision="LV.AU.0.2.0_rb1.9"/>
+  <project name="quic/ype/external/gstreamer.org/gstreamer/gst-plugins-base" path="gstreamer/gst-plugins-base" revision="LV.AU.0.2.0_rb1.9"/>
+  <project name="quic/ype/external/gstreamer.org/gstreamer/gst-plugins-good" path="gstreamer/gst-plugins-good"/>
+  <project name="quic/ype/external/gstreamer.org/gstreamer/gst-plugins-ugly" path="gstreamer/gst-plugins-ugly"/>
+  <project name="quic/ype/external/gstreamer.org/gstreamer/gstreamer" path="gstreamer/gstreamer" revision="LV.AU.0.2.0_rb1.9"/>
+  <project name="external/openembedded.org/meta-openembedded" path="meta-openembedded" remote="caf-ype" revision="8a72d29e0876830ffd96b85d7d0308302eb07a5d"/>
+  <project name="external/yoctoproject.org/meta-gplv2" path="meta-gplv2" remote="caf-ype" revision="a8da8eb127a56561bf633ab53bec57fb5dbba537"/>
+  <project name="external/yoctoproject.org/meta-security" path="meta-security" remote="caf-ype" revision="217fadb03da925757b236cb91ba9807e3b2bbd6e"/>
+  <project name="external/yoctoproject.org/meta-virtualization" path="meta-virtualization" remote="caf-ype" revision="5c2de3daedd3f65171b9debf938683ce6e7746ea"/>
+  <project name="external/yoctoproject.org/poky" path="poky" remote="caf-ype" revision="febbe2944c0c4a04b85fa98fdc261186115954d8"/>
+  <project name="quic/filesystems/fs/external/mtd-utils" path="disregard/filesystems/mtd-utils"/>
+  <project name="kernel/msm-4.14"/>
+  <project name="quic/le/meta-qti-audio" path="disregard/poky/meta-qti-audio"/>
+  <project name="quic/le/meta-qti-bsp" path="meta-qti-bsp"/>
+  <project name="quic/le/meta-qti-bt" path="disregard/poky/meta-qti-bt"/>
+  <project name="quic/le/meta-qti-core" path="disregard/poky/meta-qti-core"/>
+  <project name="quic/le/meta-qti-data" path="disregard/poky/meta-qti-data"/>
+  <project name="quic/le/meta-qti-display" path="disregard/poky/meta-qti-display"/>
+  <project name="quic/le/meta-qti-location" path="disregard/poky/meta-qti-location"/>
+  <project name="quic/le/meta-qti-security" path="disregard/poky/meta-qti-security"/>
+  <project name="quic/le/meta-qti-video" path="disregard/poky/meta-qti-video"/>
+  <project name="quic/le/meta-qti-wlan" path="disregard/poky/meta-qti-wlan"/>
+  <project name="meta-ros" remote="caf-le" revision="72068b17e4192b51e09c8dc633805a35edac8701"/>
+  <project name="quic/automotive/platform/external/Open-AVB" path="external/open-avb"/>
+  <project name="platform/external/dtc" path="external/dtc"/>
+  <project name="platform/external/libdrm" path="graphics/libdrm"/>
+  <project name="platform/external/libselinux" path="external/libselinux"/>
+  <project name="platform/external/libunwind" path="external/libunwind"/>
+  <project name="platform/external/safe-iop" path="external/safe-iop"/>
+  <project name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8"/>
+  <project name="platform/hardware/libhardware" path="hardware/libhardware"/>
+  <project name="platform/hardware/qcom/audio" path="vendor/qcom/opensource/audio-hal/primary-hal"/>
+  <project name="platform/hardware/qcom/display" path="display/display-hal"/>
+  <project name="quic/le/platform/hardware/qcom/gps" path="hardware/qcom/gps"/>
+  <project name="quic/le/platform/hardware/qcom/media" path="hardware/qcom/media" revision="LV.AU.0.2.0_rb1.9"/>
+  <project name="quic/le/platform/hardware/qcom/mm-utility" path="hardware/qcom/mm-utility"/>
+  <project name="platform/hardware/qcom/sensors" path="hardware/qcom/sensors/"/>
+  <project name="platform/hardware/qcom/thermal" path="disregard/platform/hardware/qcom/thermal"/>
+  <project name="platform/hardware/qcom/wlan" path="hardware/qcom/wlan"/>
+  <project name="quic/le/platform/system/core" path="system/core"/>
+  <project name="platform/system/extras" path="system/extras"/>
+  <project name="platform/system/libufdt" path="system/libufdt"/>
+  <project name="platform/vendor/opensource/audio-kernel" path="vendor/qcom/opensource/audio-kernel"/>
+  <project name="platform/vendor/opensource/display-drivers" path="kernel/msm-4.14/techpack/display"/>
+  <project name="quic/le/platform/vendor/qcom-opensource/auto-linux-unit-test-app" path="vendor/qcom/opensource/unit-test/applib-unit-test"/>
+  <project name="quic/le/platform/vendor/qcom-opensource/auto-linux-unit-test-kernel" path="vendor/qcom/opensource/unit-test/kernel-unit-test"/>
+  <project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" path="disregard/vendor/qcom/opensource/data-ipa-cfg-mgr"/>
+  <project name="platform/vendor/qcom-opensource/data-kernel" path="data-kernel"/>
+  <project name="quic/qsdk/platform/vendor/qcom-opensource/dataservices" path="disregard/vendor/qcom/opensource/dataservices"/>
+  <project name="platform/vendor/qcom-opensource/display-commonsys-intf" path="vendor/qcom/opensource/commonsys-intf/display"/>
+  <project name="platform/vendor/qcom-opensource/gst-plugins-qti-oss" path="gstreamer/gst-plugins-qti-oss"/>
+  <project name="platform/vendor/qcom-opensource/hsi2s-kernel" path="vendor/qcom/opensource/hsi2s-kernel"/>
+  <project name="quic/le/platform/vendor/qcom-opensource/le-framework" path="frameworks"/>
+  <project name="platform/vendor/qcom-opensource/location" path="qcom-opensource/location"/>
+  <project name="platform/vendor/qcom-opensource/mm-audio" path="vendor/qcom/opensource/mm-audio"/>
+  <project name="platform/vendor/qcom-opensource/ptp-virtual" path="vendor/qcom/opensource/ptp-virtual"/>
+  <project name="quic/le/platform/vendor/qcom-opensource/shortcut-fe" path="disregard/shortcut-fe"/>
+  <project name="quic/le/platform/vendor/qcom-opensource/synergy" path="synergy/synergy-opensource"/>
+  <project name="platform/vendor/qcom-opensource/time-services" path="disregard/vendor/qcom/opensource/time-services"/>
+  <project name="platform/vendor/qcom-opensource/usb" path="disregard/vendor/qcom/opensource/usb"/>
+  <project name="platform/vendor/qcom-opensource/wlan/fw-api" path="wlan/fw-api"/>
+  <project name="platform/vendor/qcom-opensource/wlan/qca-wifi-host-cmn" path="wlan/qca-wifi-host-cmn"/>
+  <project name="platform/vendor/qcom-opensource/wlan/qcacld-3.0" path="wlan/qcacld-3.0"/>
+  <project name="platform/vendor/qcom-opensource/wlan/utils/sigma-dut" path="wlan/utils/sigma-dut"/>
+  <project name="platform/vendor/qcom/wlan" path="device/qcom/wlan"/>
+  <project name="quic/le/qcom-opensource/mdm-init" path="mdm-init"/>
+  <project name="quic/le/qti-conf" path="poky/build/conf"/>
+  <project name="quic/le/wayland/weston" path="graphics/weston" revision="LV.AU.0.2.0_rb1.9"/>
+</manifest>
