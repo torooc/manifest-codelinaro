@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="git://codeaurora.org/quic/ype" name="caf-ype" review="null"/>
+  <remote fetch="https://source.codeaurora.org" name="caf" review="codeaurora.org"/>
+  <default remote="caf" revision="refs/heads/master"/>
+  <project name="external/openembedded.org/meta-openembedded" path="poky/meta-openembedded" remote="caf-ype" revision="refs/heads/openembeded.org/thud"/>
+  <project name="external/yoctoproject.org/poky" path="poky" remote="caf-ype" revision="51f6145f8f99a02df1dad937684f014b0172e72a"/>
+  <project name="quic/filesystems/fs/external/mtd-utils" path="src/filesystems/mtd-utils" revision="refs/heads/core-technologies.lnx.3.0.r10"/>
+  <project groups="cyborg" name="kernel/build" path="src/device/qcom/kernelscripts" revision="refs/heads/msm-5.4.r2"/>
+  <project groups="cyborg" name="kernel/msm-5.4" path="src/kernel/msm-5.4" revision="refs/heads/msm-5.4.r2"/>
+  <project name="quic/le/meta-qti-bsp" path="poky/meta-qti-bsp" revision="refs/heads/yocto.lnx.3.1.r4"/>
+  <project name="quic/le/meta-qti-core" path="poky/meta-qti-core" revision="refs/heads/core-technologies.lnx.3.0.r10"/>
+  <project name="quic/le/meta-qti-display" path="poky/meta-qti-display" revision="refs/heads/display-le.lnx.1.0.r1"/>
+  <project name="quic/le/meta-qti-security" path="poky/meta-qti-security" revision="refs/heads/sec-userspace.lnx-meta.6.1.r1"/>
+  <project name="quic/le/meta-qti-sepolicy" path="poky/meta-qti-sepolicy" revision="refs/heads/le-sepolicy.lnx.3.0.r8"/>
+  <project name="quic/le/meta-selinux" path="poky/meta-selinux" revision="refs/heads/le-sepolicy.lnx.3.0.r8"/>
+  <project name="platform/external/safe-iop" path="src/external/safe-iop" revision="refs/heads/le-blast.lnx.1.4.r4"/>
+  <project name="platform/hardware/libhardware" path="src/hardware/libhardware" revision="refs/heads/le-blast.lnx.1.4.r4"/>
+  <project groups="qcom,default" name="platform/hardware/qcom/display" path="src/hardware/qcom/display" revision="refs/heads/display.lnx.7.0.r2"/>
+  <project name="platform/system/core" path="src/system/core" revision="refs/heads/le-blast.lnx.1.4.r4"/>
+  <project name="platform/system/extras" path="src/system/extras" revision="refs/heads/le-blast.lnx.1.4.r4"/>
+  <project groups="cyborg" name="platform/vendor/opensource/display-drivers" path="src/kernel/msm-5.4/techpack/display" revision="refs/heads/display-kernel.lnx.5.4.r2"/>
+  <project groups="cyborg" name="platform/vendor/opensource/sched" path="src/kernel/msm-5.4/techpack/sched" revision="refs/heads/msm-5.4.r2"/>
+  <project name="quic/le/platform/vendor/qcom-opensource/display-commonsys-intf" path="src/vendor/qcom/opensource/commonsys-intf/display" revision="refs/heads/display-sysintf.lnx.1.2.r9"/>
+  <project name="quic/le/platform/vendor/qcom-opensource/display/sdm-composer" path="src/vendor/qcom/opensource/display/sdm-composer" revision="refs/heads/display-le.lnx.1.0.r1"/>
+  <project name="quic/le/platform/vendor/qcom-opensource/le-framework" path="src/frameworks" revision="refs/heads/le-frameworks.lnx.2.1.r4"/>
+  <project name="quic/le/qti-conf" path="poky/qti-conf" revision="refs/heads/yocto.lnx.3.1.r4">
+    <linkfile dest="setup-environment" src="set_bb_env.sh"/>
+  </project>
+</manifest>
