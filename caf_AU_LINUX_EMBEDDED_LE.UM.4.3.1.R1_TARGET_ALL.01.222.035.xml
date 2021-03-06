@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="git://codeaurora.org/quic/ype" name="caf-ype" review="null"/>
+  <remote fetch="https://source.codeaurora.org/" name="caf" review="codeaurora.org"/>
+  <default remote="caf" revision="refs/heads/master"/>
+  <project name="external/openembedded.org/meta-openembedded" path="poky/meta-openembedded" remote="caf-ype" revision="446bd615fd7cb9bc7a159fe5c2019ed08d1a7a93" upstream="refs/heads/openembeded.org/thud"/>
+  <project name="external/yoctoproject.org/poky" path="poky" remote="caf-ype" revision="51f6145f8f99a02df1dad937684f014b0172e72a"/>
+  <project name="quic/filesystems/fs/external/mtd-utils" path="src/filesystems/mtd-utils" revision="4d32bde3e99ad9a2de2a1333235cabba179ceaa3" upstream="refs/heads/core-technologies.lnx.3.0.r10"/>
+  <project groups="cyborg" name="kernel/build" path="src/device/qcom/kernelscripts" revision="5c49efc0b16dbffd8080700701d629c59f66df40" upstream="refs/heads/msm-5.4.r2"/>
+  <project groups="cyborg" name="kernel/msm-5.4" path="src/kernel/msm-5.4" revision="d7efe58cc6076d118d2607346a8414c56c3a933b" upstream="refs/heads/msm-5.4.r2"/>
+  <project name="quic/le/meta-qti-bsp" path="poky/meta-qti-bsp" revision="145529d242f2173558dedddafeb2419b3c94c976" upstream="refs/heads/yocto.lnx.3.1.r4"/>
+  <project name="quic/le/meta-qti-core" path="poky/meta-qti-core" revision="ba9502ca4bee4be712dc30c06dba4e93829bfe89" upstream="refs/heads/core-technologies.lnx.3.0.r10"/>
+  <project name="quic/le/meta-qti-display" path="poky/meta-qti-display" revision="204a82286c682b31158cbc293b9253feefa7f22d" upstream="refs/heads/display-le.lnx.1.0.r1"/>
+  <project name="quic/le/meta-qti-security" path="poky/meta-qti-security" revision="c787ac8529509617a7ceaaf585fcfdca6ee26026" upstream="refs/heads/sec-userspace.lnx-meta.6.1.r1"/>
+  <project name="quic/le/meta-qti-sepolicy" path="poky/meta-qti-sepolicy" revision="1747968a79f84f0e799bac0391e61f34e8cfabf9" upstream="refs/heads/le-sepolicy.lnx.3.0.r8"/>
+  <project name="quic/le/meta-selinux" path="poky/meta-selinux" revision="2c176184de59d1b991deade17613758928fe3606" upstream="refs/heads/le-sepolicy.lnx.3.0.r8"/>
+  <project name="platform/external/safe-iop" path="src/external/safe-iop" revision="aa0725fb1da35e47676b6da30009322eb5ed59be" upstream="refs/heads/le-blast.lnx.1.4.r4"/>
+  <project name="platform/hardware/libhardware" path="src/hardware/libhardware" revision="98d1b91191e16db1091a9ebbd402e25dd4f6729c" upstream="refs/heads/le-blast.lnx.1.4.r4"/>
+  <project groups="qcom,default" name="platform/hardware/qcom/display" path="src/hardware/qcom/display" revision="98a86c03f5e06df7dfef78587a778fcc24db03f8" upstream="refs/heads/display.lnx.7.0.r2"/>
+  <project name="platform/system/core" path="src/system/core" revision="d2e1b6a682ee5e2eb101edb7ffb5188db04fe402" upstream="refs/heads/le-blast.lnx.1.4.r4"/>
+  <project name="platform/system/extras" path="src/system/extras" revision="19005cb025db2cca0cb8c3b079fc765845b5c680" upstream="refs/heads/le-blast.lnx.1.4.r4"/>
+  <project groups="cyborg" name="platform/vendor/opensource/display-drivers" path="src/kernel/msm-5.4/techpack/display" revision="e4a03857db58760ca283b5daeb1b85dbe711dae1" upstream="refs/heads/display-kernel.lnx.5.4.r2"/>
+  <project groups="cyborg" name="platform/vendor/opensource/sched" path="src/kernel/msm-5.4/techpack/sched" revision="deb22cc29bfac4ff51b6eaa18385d83c176b15da" upstream="refs/heads/msm-5.4.r2"/>
+  <project name="quic/le/platform/vendor/qcom-opensource/display-commonsys-intf" path="src/vendor/qcom/opensource/commonsys-intf/display" revision="8374ad556935d36594fa93236327aa1213ab1e0f" upstream="refs/heads/display-sysintf.lnx.1.2.r9"/>
+  <project name="quic/le/platform/vendor/qcom-opensource/display/sdm-composer" path="src/vendor/qcom/opensource/display/sdm-composer" revision="6f9d9978f3d1d46736496a9bcc513433b85496ed" upstream="refs/heads/display-le.lnx.1.0.r1"/>
+  <project name="quic/le/platform/vendor/qcom-opensource/le-framework" path="src/frameworks" revision="ecbaac2092cf87bfefd012b2c3da0c9e3719c7c0" upstream="refs/heads/le-frameworks.lnx.2.1.r4"/>
+  <project name="quic/le/qti-conf" path="poky/qti-conf" revision="bd8d15d247023fd4ea9ad924b125e2643438919e" upstream="refs/heads/yocto.lnx.3.1.r4">
+    <linkfile dest="setup-environment" src="set_bb_env.sh"/>
+  </project>
+</manifest>
