@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="https://source.codeaurora.org" name="caf" review="codeaurora.org"/>
+  <default remote="caf" revision="refs/heads/master"/>
+  <project dest-branch="refs/heads/q-aosp-automotive.c20.3" groups="aosp" name="platform/packages/apps/Bluetooth" path="packages/apps/Bluetooth" revision="60cde0fc94b575f4b9dc6ac1f2619fee1c3456ab" upstream="refs/heads/q-aosp-automotive.c20.3"/>
+  <project dest-branch="refs/heads/q-aosp-automotive.c20.3" groups="aosp" name="platform/system/bt" path="system/bt" revision="f55c05bd64f1da5f03ec2f35b7c6718b5327a125" upstream="refs/heads/q-aosp-automotive.c20.3"/>
+  <project dest-branch="refs/heads/bt.lnx.5.0.1.c20.3" name="platform/vendor/qcom-opensource/bluetooth" path="vendor/qcom/opensource/commonsys/bluetooth" revision="7770de3d7087f81ad2bdfdbf7b982b80067f057a" upstream="refs/heads/bt.lnx.5.0.1.c20.3"/>
+</manifest>
