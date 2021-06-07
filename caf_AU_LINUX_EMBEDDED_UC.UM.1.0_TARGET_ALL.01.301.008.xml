@@ -5,6 +5,7 @@
   <project dest-branch="refs/heads/iot-uefi.lnx.1.9.1" groups="cyborg" name="quic/le/abl/tianocore/edk2" path="src/bootable/bootloader/edk2" revision="16bcae7bab7cea6f178a8a0a9d189e35de3898c4" upstream="refs/heads/iot-uefi.lnx.1.9.1"/>
   <project dest-branch="refs/heads/iot-kernel.lnx.4.14.c9" groups="cyborg" name="kernel/msm-4.14" path="src/kernel/msm-4.14" revision="83ea92bb739cf0d979d14649830b27afd69e729f" upstream="refs/heads/iot-kernel.lnx.4.14.c9"/>
   <project dest-branch="refs/heads/le-blast.lnx.1.4" name="platform/system/core" path="src/system/core" revision="15feadfbd8ebcd63481520c66e9e03ba85ee127e" upstream="refs/heads/le-blast.lnx.1.4"/>
+  <project dest-branch="refs/heads/le-blast.lnx.1.4" name="platform/external/safe-iop" path="src/external/safe-iop" revision="aa0725fb1da35e47676b6da30009322eb5ed59be" upstream="refs/heads/le-blast.lnx.1.4"/>
   <project dest-branch="refs/heads/ubcore.lnx.1.0" name="quic/le/snap/build-scripts" revision="369c764756bf160920c33d06e41322dae08a7f66" upstream="refs/heads/ubcore.lnx.1.0" path="snap/build-scripts"/>
   <project dest-branch="refs/heads/ubcore.lnx.1.0" name="quic/le/snap/yaml" revision="5e715937282b5615838eb71011bd71273f0c810f" upstream="refs/heads/ubcore.lnx.1.0" path="snap/yaml"/>
 </manifest>
