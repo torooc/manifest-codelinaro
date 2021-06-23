@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="https://source.codeaurora.org/" name="caf" review="codeaurora.org"/>
+  <default remote="caf" revision="LE.EDGE.1.0.c1"/>
+  <project name="quic/le/OTA/build" revision="aad4ecdd1062ed0c920c2510b496d60cb0058b87" upstream="LE.EDGE.1.0.c1" path="OTA/build"/>
+  <project name="quic/le/OTA/device/qcom/common" revision="463e7c6306029aa6080e8d807f07e179973d916c" upstream="LE.EDGE.1.0.c1" path="OTA/device/qcom/common"/>
+  <project name="quic/le/OTA/external/bsdiff" revision="2f6c160807029d6b8eec0dfa490e49fbbf096ca2" upstream="LE.EDGE.1.0.c1" path="OTA/external/bsdiff"/>
+  <project name="quic/le/OTA/platform/external/libdivsufsort" path="OTA/external/libdivsufsort" revision="70a94c7454df52eefe5da0a3cd1c10952742d3e6" upstream="LE.EDGE.1.0.c1"/>
+  <project name="quic/le/OTA/recovery" revision="3922a2865e9d269d439f7beee979ce8b8e3a6e4d" upstream="LE.EDGE.1.0.c1" path="OTA/recovery"/>
+  <project name="quic/le/OTA/system/core" revision="106cd1462a82356aa7b74b171aea62fcb98ca79a" upstream="LE.EDGE.1.0.c1" path="OTA/system/core"/>
+  <project name="quic/le/OTA/system/extras" revision="4814452eebac0b1991fb80f634536d7a6130ef5f" upstream="LE.EDGE.1.0.c1" path="OTA/system/extras"/>
+  <project name="quic/le/abl/tianocore/edk2" path="bootable/bootloader/edk2" revision="6666018b2023b4e58fa7c285f17f28b04fb9bbb7" upstream="LE.EDGE.1.0.c1"/>
+  <project name="quic/le/aosphal-adaptation" revision="c3a0a722d3bfbdb78f52fd7bf2350b933d71197d" upstream="LE.EDGE.1.0.c1" path="aosphal-adaptation"/>
+  <project name="quic/lc/external/github.com/tensorflow/tensorflow" path="external/tensorflow" revision="f193e607bce7215edab812cd32a8dedc62d061d3" upstream="LE.EDGE.1.0.c1"/>
+  <project name="quic/ype/external/openembedded.org/meta-openembedded" path="poky/meta-openembedded" revision="446bd615fd7cb9bc7a159fe5c2019ed08d1a7a93" upstream="LE.EDGE.1.0.c1"/>
+  <project name="quic/ype/external/yoctoproject.org/poky" path="poky" revision="f5a57e939e626a5b7c6de5b51799ca602ed355ed" upstream="refs/heads/yocto/thud"/>
+  <project name="quic/filesystems/fs/external/mtd-utils" path="filesystems/mtd-utils" revision="4d32bde3e99ad9a2de2a1333235cabba179ceaa3" upstream="LE.EDGE.1.0.c1"/>
+  <project name="kernel/msm-4.19" revision="4932a7345adabb645ce972e7a81d257e66fdce49" upstream="LE.EDGE.1.0_1"/>
+  <project name="quic/le/mdm/reboot-daemon" path="mdm-ss-mgr/reboot-daemon" revision="c67cc29ae6ba61a36f4f5b6332d61e19889e8644" upstream="LE.EDGE.1.0.c1"/>
+  <project name="quic/le/meta-qti-aosphal-adaptation" path="poky/meta-qti-aosphal-adaptation" revision="7f7fefd51ced51e56039b977e063e79601ffd9fe" upstream="LE.EDGE.1.0.c1"/>
+  <project name="quic/le/meta-qti-audio" path="poky/meta-qti-audio" revision="961e42d3ed515613d99a1f61cc20d9de35b10284" upstream="LE.EDGE.1.0.c1"/>
+  <project name="quic/le/meta-qti-bsp" path="poky/meta-qti-bsp" revision="8e7d5981e8f350292ffd65bb15c95ce3c1d77fbc" upstream="LE.EDGE.1.0.c1"/>
+  <project name="quic/le/meta-qti-camera" path="poky/meta-qti-camera" revision="c5f91e5399b6ae0f26726af05506280c36b8ef7f" upstream="LE.EDGE.1.0.c1"/>
+  <project name="quic/le/meta-qti-core" path="poky/meta-qti-core" revision="df3b20e0a9fd566f68f0d48ca988c4e199408e97" upstream="LE.EDGE.1.0.c1"/>
+  <project name="quic/le/meta-qti-data" path="poky/meta-qti-data" revision="12cc35cd7c93b6bb1a1e16feeef39f6c234b6825" upstream="LE.EDGE.1.0.c1"/>
+  <project name="quic/le/meta-qti-display" path="poky/meta-qti-display" revision="28c61f359f15db563d3e161792a1b10587c4be14" upstream="LE.EDGE.1.0.c1"/>
+  <project name="quic/le/meta-qti-ml" path="poky/meta-qti-ml" revision="ad41922871e922a8f0d7cde8929606131898aa4b" upstream="LE.EDGE.1.0.c1"/>
+  <project name="quic/le/meta-qti-qmmf" path="poky/meta-qti-qmmf" revision="6b4875f001e90cfb867e8825ee25ec101f4cec5a" upstream="LE.EDGE.1.0.c1"/>
+  <project name="quic/le/meta-qti-security" path="poky/meta-qti-security" revision="90cb226b71054042288c8a62289b8afdcdebb5dc" upstream="LE.EDGE.1.0.c1"/>
+  <project name="quic/le/meta-qti-sepolicy" path="poky/meta-qti-sepolicy" revision="ec205e35690f5ad18c96b29b15b5ef46bd7bdf17" upstream="LE.EDGE.1.0.c1"/>
+  <project name="quic/le/meta-qti-ss-mgr" path="poky/meta-qti-ss-mgr" revision="7d7d5fa91c5d022c07edb85ceaba7263af45071c" upstream="LE.EDGE.1.0.c1"/>
+  <project name="quic/le/meta-qti-video" path="poky/meta-qti-video" revision="970a5fa76715b58b55f3db6bdb8782fcf429a931" upstream="LE.EDGE.1.0.c1"/>
+  <project name="quic/le/meta-selinux" path="poky/meta-selinux" revision="2c176184de59d1b991deade17613758928fe3606" upstream="LE.EDGE.1.0.c1"/>
+  <project name="platform/external/compat-wireless" path="external/compat-wireless" revision="0143c07f3b1594a9259b7a0fe041deb5f4db8099" upstream="LE.EDGE.1.0.c1"/>
+  <project name="platform/external/icu" path="external/icu" revision="0658544a6d8a6b0cad32f84f8a844ab1c0199653" upstream="LE.EDGE.1.0.c1"/>
+  <project name="platform/external/libdrm" path="display/libdrm" revision="3b2322f8d715dc5967fbc859491dc39010f20a6d" upstream="LE.EDGE.1.0.c1"/>
+  <project name="platform/external/libselinux" path="external/libselinux" revision="ee539d24828440eda6115da4f300937383c6a98d" upstream="LE.EDGE.1.0.c1"/>
+  <project name="platform/external/libxml2" path="external/libxml2" revision="c096ab0341296edb0f7b40eb6340e177e4614ebe" upstream="LE.EDGE.1.0.c1"/>
+  <project name="platform/external/safe-iop" path="external/safe-iop" revision="aa0725fb1da35e47676b6da30009322eb5ed59be" upstream="LE.EDGE.1.0.c1"/>
+  <project name="platform/frameworks/ml" path="frameworks/ml" revision="5fec66a0428797468ce132058a3bfe1c3af22371" upstream="LE.EDGE.1.0.c1"/>
+  <project name="platform/hardware/libhardware" path="hardware/libhardware" revision="c5a4d0549a7160e7bd241394073f86fb8e79e6d2" upstream="LE.EDGE.1.0.c1"/>
+  <project groups="qcom,default" name="platform/hardware/qcom/audio" path="hardware/qcom/audio" revision="e561a2a33015af99ca90b853c3ed1519dae4a20f" upstream="LE.EDGE.1.0.c1"/>
+  <project groups="qcom,default" name="platform/hardware/qcom/display" path="display/display-hal" revision="cb07037dfd48d89ae9e9f682ea621f297741a61f" upstream="LE.EDGE.1.0.c1"/>
+  <project name="platform/hardware/qcom/media" path="hardware/qcom/media" revision="6f9dfda99625bc7c1af31c811229208c4867ab4c" upstream="LE.EDGE.1.0.c1"/>
+  <project name="quic/le/platform/init_mss" path="mdm-ss-mgr/init_mss" revision="e1db20af1ebf5d99429161e3ad213d75acfb696c" upstream="LE.EDGE.1.0.c1"/>
+  <project name="platform/system/core" path="system/core" revision="f5b19bcbb80abb9ed48479e505d28e14eb9f22b1" upstream="LE.EDGE.1.0.c1"/>
+  <project name="platform/system/extras" path="system/extras" revision="8ef7dae5e1a207c4683e7ea3ee534ea94d13787a" upstream="LE.EDGE.1.0.c1"/>
+  <project name="platform/vendor/opensource/audio-kernel" path="vendor/qcom/opensource/audio-kernel" revision="1ef1f476a14928eeec644a805981a2ab4777fe35" upstream="LE.EDGE.1.0.c1"/>
+  <project name="platform/vendor/opensource/camera-kernel" path="kernel/msm-4.19/techpack/camera" revision="ff209f84262565eb5303c0f8f26d865aeeca2d64" upstream="LE.EDGE.1.0.c1"/>
+  <project name="platform/vendor/opensource/display-drivers" path="kernel/msm-4.19/techpack/display" revision="0c7ad4a4d5408b4d7331fd7fe948f61e18e545a5" upstream="LE.EDGE.1.0.c1"/>
+  <project name="platform/vendor/opensource/video-driver" path="kernel/msm-4.19/techpack/video" revision="dc567ad1edec7960c71720a0c022de00fad6937b" upstream="LE.EDGE.1.0.c1"/>
+  <project name="quic/le/platform/vendor/qcom-opensource/audio-hal/st-hal" path="vendor/qcom/opensource/audio-hal/st-hal" revision="ec0a79711c0d5db5fc51e1ad8fb11680f6a0dc58" upstream="LE.EDGE.1.0.c1"/>
+  <project name="quic/le/platform/vendor/qcom-opensource/camx-ext" path="vendor/qcom/opensource/camx-ext" revision="2f1d3a328f77794fd37b2765c0d303dcf04baf3c" upstream="LE.EDGE.1.0.c1"/>
+  <project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" path="data-ipa-cfg-mgr" revision="ca7f4ff042a79f040e4871602996199be87f11c8" upstream="LE.EDGE.1.0.c1"/>
+  <project name="platform/vendor/qcom-opensource/data-kernel" path="data-kernel" revision="b97bf9110076c62e2c578a0542371533f1a44066" upstream="LE.EDGE.1.0.c1"/>
+  <project name="platform/vendor/qcom-opensource/dataservices" path="data-oss" revision="0619069e753dbb891dd18220bec8b23d39f94f57" upstream="LE.EDGE.1.0.c1"/>
+  <project name="quic/le/platform/vendor/qcom-opensource/gst-plugins-qti-oss" path="vendor/qcom/opensource/gst-plugins-qti-oss" revision="8d7d51b4c614f468239965a002e45c9200537b88" upstream="LE.EDGE.1.0.c1"/>
+  <project name="platform/vendor/qcom-opensource/kernel-tests/mm-audio" path="qcom-opensource/mm-audio" revision="c7ceae905b1b26e5df6b7eed28ece735f6bf3e28" upstream="LE.EDGE.1.0.c1"/>
+  <project name="quic/le/platform/vendor/qcom-opensource/le-framework" path="frameworks" revision="ae4433a4a678624f6a1f93f97a4e000fce50a509" upstream="LE.EDGE.1.0.c1"/>
+  <project name="quic/le/platform/vendor/qcom-opensource/qmmf-sdk" path="vendor/qcom/opensource/qmmf-sdk" revision="ffbea13b2afd2a70b0b06026bf1228a89648c1f6" upstream="LE.EDGE.1.0.c1"/>
+  <project name="quic/le/platform/vendor/qcom-opensource/shortcut-fe" path="shortcut-fe" revision="fcc6f30f0040318e69355d8fa8403ae90729ea90" upstream="LE.EDGE.1.0.c1"/>
+  <project name="quic/le/platform/vendor/qcom-opensource/tcp-splice" path="tcp-splice" revision="ab837eb1d98e20fde790e8c2b861aec34f5c3229" upstream="LE.EDGE.1.0.c1"/>
+  <project name="quic/le/pmipv6" revision="e1767066b85009c636668f768bf8a2e1a1695ba6" upstream="LE.EDGE.1.0.c1" path="pmipv6"/>
+  <project name="quic/le/pulseaudio" path="external/pulseaudio" revision="8b246b077f671572d743d0e3e78df43befe6f4ed" upstream="LE.EDGE.1.0.c1"/>
+  <project name="quic/le/qti-conf" path="poky/build/conf" revision="81390cdd871071dab90576d080ec373026fb28d5" upstream="LE.EDGE.1.0.c1"/>
+  <project name="quic/le/wayland/weston" path="display/weston" revision="fed7ed6f130ab45a25774d8c6e9185980874ba71" upstream="LE.EDGE.1.0.c1"/>
+</manifest>
