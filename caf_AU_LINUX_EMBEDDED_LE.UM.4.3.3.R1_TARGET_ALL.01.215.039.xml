@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="git://codeaurora.org/quic/ype" name="caf-ype" review="null"/>
-  <remote fetch="https://source.codeaurora.org/quic/le/" name="caf" review="codeaurora.org"/>
+  <remote fetch="https://source.codeaurora.org/" name="caf" review="codeaurora.org"/>
   <default remote="caf" revision="refs/heads/master"/>
   <project name="quic/le/OTA/build" revision="026a9fb4f11538d2ad84cc8b943ea0f1e3fb4b5d" upstream="refs/heads/le-ota.lnx.1.0.r13" path="OTA/build"/>
   <project name="quic/le/OTA/device/qcom/common" revision="d68d1ad6d1682353c158ad503b3bba8fdac317ab" upstream="refs/heads/le-ota.lnx.1.0.r13" path="OTA/device/qcom/common"/>
