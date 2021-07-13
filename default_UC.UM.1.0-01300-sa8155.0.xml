@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="https://source.codeaurora.org" name="caf" review="codeaurora.org"/>
+  <default remote="caf" revision="refs/heads/UC.UM.1.0"/>
+  <project dest-branch="refs/heads/iot-uefi.lnx.1.9.1" groups="cyborg" name="quic/le/abl/tianocore/edk2" path="src/bootable/bootloader/edk2" revision="e609ab100699864d73cd0668d65ca22545570926" upstream="refs/heads/iot-uefi.lnx.1.9.1"/>
+  <project dest-branch="refs/heads/iot-kernel.lnx.4.14.c9" groups="cyborg" name="kernel/msm-4.14" path="src/kernel/msm-4.14" revision="cfe71ed99017cca9f366604fe0621b0245551a61" upstream="refs/heads/iot-kernel.lnx.4.14.c9"/>
+  <project dest-branch="refs/heads/le-blast.lnx.1.4" name="platform/external/safe-iop" path="src/external/safe-iop" revision="aa0725fb1da35e47676b6da30009322eb5ed59be" upstream="refs/heads/le-blast.lnx.1.4"/>
+  <project dest-branch="refs/heads/le-blast.lnx.1.4" name="platform/system/core" path="src/system/core" revision="616748d3b5c70c885f1026bfd5f93c68b2317876" upstream="refs/heads/le-blast.lnx.1.4"/>
+  <project dest-branch="refs/heads/ubcore.lnx.1.0" name="quic/le/snap/build-scripts" revision="c5be1c173d13745307c3371e85d18534021225ff" upstream="refs/heads/ubcore.lnx.1.0" path="snap/build-scripts"/>
+  <project dest-branch="refs/heads/ubcore.lnx.1.0" name="quic/le/snap/yaml" revision="3635cb17d920333a128fe93931e59dd745e0414b" upstream="refs/heads/ubcore.lnx.1.0" path="snap/yaml"/>
+</manifest>
