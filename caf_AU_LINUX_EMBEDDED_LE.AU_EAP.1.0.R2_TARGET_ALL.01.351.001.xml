@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="git://codeaurora.org/quic/ype" name="caf-ype" review="null"/>
-  <remote fetch="https://source.codeaurora.org/quic/le/" name="caf" review="codeaurora.org"/>
+  <remote fetch="https://source.codeaurora.org/" name="caf" review="codeaurora.org"/>
   <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
   <default remote="caf" revision="LE.AU_EAP.1.0.r2"/>
   <project name="quic/le/eap-qti-kernel" path="sources/eap-qti-kernel" revision="262a9ea037fc30cfa96f9ab450e7fe1a3ea5f61f" upstream="LE.AU_EAP.1.0.r2"/>
