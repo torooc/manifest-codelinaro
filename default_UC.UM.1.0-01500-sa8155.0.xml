@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="https://source.codeaurora.org" name="caf" review="codeaurora.org"/>
+  <default remote="caf" revision="refs/heads/UC.UM.1.0"/>
+  <project dest-branch="refs/heads/iot-uefi.lnx.1.9.1" groups="cyborg" name="quic/le/abl/tianocore/edk2" path="src/bootable/bootloader/edk2" revision="e609ab100699864d73cd0668d65ca22545570926" upstream="refs/heads/iot-uefi.lnx.1.9.1"/>
+  <project dest-branch="refs/heads/core-technologies.lnx.3.0" name="quic/le/fs/external/mtd-utils" path="src/filesystems/mtd-utils" revision="4d32bde3e99ad9a2de2a1333235cabba179ceaa3" upstream="refs/heads/core-technologies.lnx.3.0"/>
+  <project dest-branch="refs/heads/iot-kernel.lnx.4.14.c9" groups="cyborg" name="kernel/msm-4.14" path="src/kernel/msm-4.14" revision="de556fed5178dc0072a42a25edb836114e8bda6d" upstream="refs/heads/iot-kernel.lnx.4.14.c9"/>
+  <project dest-branch="refs/heads/core-technologies.lnx.3.0" name="quic/le/meta-qti-core" path="disregard/poky/meta-qti-core" revision="8ef3e25255f8e0eafdea64c4a712cbd90dd91886" upstream="refs/heads/core-technologies.lnx.3.0"/>
+  <project dest-branch="refs/heads/le-blast.lnx.1.4" name="platform/external/safe-iop" path="src/external/safe-iop" revision="aa0725fb1da35e47676b6da30009322eb5ed59be" upstream="refs/heads/le-blast.lnx.1.4"/>
+  <project dest-branch="refs/heads/le-blast.lnx.1.4" name="platform/hardware/libhardware" path="src/hardware/libhardware" revision="1f3af11343706f528ab57ddcd4eacc6d31f9bede" upstream="refs/heads/le-blast.lnx.1.4"/>
+  <project dest-branch="refs/heads/le-blast.lnx.1.4" name="platform/system/core" path="src/system/core" revision="616748d3b5c70c885f1026bfd5f93c68b2317876" upstream="refs/heads/le-blast.lnx.1.4"/>
+  <project dest-branch="refs/heads/le-blast.lnx.1.4" name="platform/system/extras" path="src/system/extras" revision="413833d54f5da8c2914ae35b33e568bc44c368a9" upstream="refs/heads/le-blast.lnx.1.4"/>
+  <project dest-branch="refs/heads/location-ubn.lnx.1.0" name="platform/vendor/qcom-opensource/location" path="src/qcom-opensource/location" revision="b34069306b1189fab83b9c7894ec63954de9ebdd" upstream="refs/heads/location-ubn.lnx.1.0"/>
+  <project dest-branch="refs/heads/ubcore.lnx.1.0" name="quic/le/snap/yaml" revision="3635cb17d920333a128fe93931e59dd745e0414b" upstream="refs/heads/ubcore.lnx.1.0" path="snap/yaml"/>
+</manifest>
