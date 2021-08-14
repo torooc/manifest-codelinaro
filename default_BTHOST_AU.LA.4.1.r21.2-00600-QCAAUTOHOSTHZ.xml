@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="https://source.codeaurora.org" name="caf" review="codeaurora.org"/>
+  <default remote="caf" revision="refs/heads/master"/>
+  <project dest-branch="refs/heads/bt.lnx.6.0.1.c21.1" name="platform/vendor/qcom-opensource/bluetooth" path="vendor/qcom/opensource/commonsys/bluetooth" revision="cc0d391fb33ae9b6f9541b0dd30e5714b02a5fe4" upstream="refs/heads/bt.lnx.6.0.1.c21.1"/>
+</manifest>
