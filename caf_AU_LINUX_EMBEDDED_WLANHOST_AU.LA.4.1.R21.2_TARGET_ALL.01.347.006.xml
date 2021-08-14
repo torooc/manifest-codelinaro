@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="https://source.codeaurora.org/" name="caf" review="codeaurora.org"/>
+  <default remote="caf" revision="refs/heads/master"/>
+  <project dest-branch="refs/heads/wlan-aosp.lnx.6.0.c21.1" name="platform/hardware/qcom/wlan" path="hardware/qcom/wlan" revision="ecfb0cdeaf110d84d5c1709933435f7e71476a90" upstream="refs/heads/wlan-aosp.lnx.6.0.c21.1"/>
+  <project dest-branch="refs/heads/wlan-service.lnx.6.0.c21.1" name="platform/system/qcom" path="vendor/qcom/opensource/softap" revision="1b6053c5cdca6ef02fc970a17f47db8ad7007f32" upstream="refs/heads/wlan-service.lnx.6.0.c21.1"/>
+  <project dest-branch="refs/heads/wlan-api.lnx.1.0.c21.1" name="platform/vendor/qcom-opensource/wlan/fw-api" path="vendor/qcom/opensource/wlan/fw-api" revision="e4efd800ff5570474051cc297be5e1a8ec6c5528" upstream="refs/heads/wlan-api.lnx.1.0.c21.1"/>
+  <project dest-branch="refs/heads/wlan-cmn.driver.lnx.2.0.c21.1" name="platform/vendor/qcom-opensource/wlan/qca-wifi-host-cmn" path="vendor/qcom/opensource/wlan/qca-wifi-host-cmn" revision="f5266ab6449708d194cb9c5b571fcf1f50ddaa18" upstream="refs/heads/wlan-cmn.driver.lnx.2.0.c21.1"/>
+  <project dest-branch="refs/heads/wlan-cld3.driver.lnx.2.0.c21.1" name="platform/vendor/qcom-opensource/wlan/qcacld-3.0" path="vendor/qcom/opensource/wlan/qcacld-3.0" revision="6e5a542ae2b707acdfe7ba02b00e1a5c4ca1b4c9" upstream="refs/heads/wlan-cld3.driver.lnx.2.0.c21.1"/>
+  <project dest-branch="refs/heads/wlan-service.lnx.6.0.c21.1" name="platform/vendor/qcom-opensource/wlan/utils/sigma-dut" path="vendor/qcom/opensource/wlan/utils/sigma-dut" revision="33e68e51900ed55f1b6c4fbfd8c9c424a2f2e55b" upstream="refs/heads/wlan-service.lnx.6.0.c21.1"/>
+  <project dest-branch="refs/heads/wlan-service.lnx.6.0.c21.1" name="platform/vendor/qcom/wlan" path="device/qcom/wlan" revision="9a6a8cbcbb570733d90fe17993c00c41403e7244" upstream="refs/heads/wlan-service.lnx.6.0.c21.1"/>
+</manifest>
