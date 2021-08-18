@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="git://codeaurora.org/quic/ype" name="caf-ype" review="null"/>
+  <remote fetch="https://source.codeaurora.org/" name="caf" review="codeaurora.org"/>
+  <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
+  <default remote="caf" revision="LE.AU_EAP.1.0.r2"/>
+  <project name="quic/le/eap-qti-kernel" path="sources/eap-qti-kernel" revision="262a9ea037fc30cfa96f9ab450e7fe1a3ea5f61f" upstream="LE.AU_EAP.1.0.r2"/>
+  <project name="external/openembedded.org/meta-openembedded" path="sources/meta-openembedded" remote="caf-ype" revision="8760facba1bceb299b3613b8955621ddaa3d4c3f"/>
+  <project name="external/yoctoproject.org/poky" path="sources/poky" remote="caf-ype" revision="58e82c451071d0e257da6088cf643e636282084c"/>
+  <project name="meta-freescale" path="sources/meta-freescale" remote="yocto" revision="27ca94f8a4336790ba117b4298566f6820e7e74c"/>
+  <project name="quic/le/meta-qti-eap" path="sources/meta-qti-eap" revision="fe286cff73ddbe6a6e7d76e41c3d8eecbaaf1cfc" upstream="LE.AU_EAP.1.0.r2"/>
+  <project name="platform/hardware/qcom/gps" path="hardware/qcom/gps" revision="d41bfb94d4b9a4aae1d4eeb85218105529f503a2" upstream="LE.AU_EAP.1.0.r2"/>
+  <project name="platform/hardware/ril" path="telux/services/ril" revision="932892301021817b2a89345132674937b72c8263" upstream="LE.AU_EAP.1.0.r2"/>
+  <project name="quic/le/platform/open-source/telematics-apps" path="telematics/apps/open-source" revision="08f968349d80509d4787eb8673bd7cad5ddb3e88" upstream="LE.AU_EAP.1.0.r2"/>
+  <project name="platform/vendor/qcom-opensource/dataservices" path="vendor/qcom/opensource/dataservices" revision="ec91bbdd3984b6f8b92119f344b989c80c2cdea8" upstream="LE.AU_EAP.1.0.r2"/>
+  <project name="platform/vendor/qcom-opensource/location" path="vendor/qcom/opensource/location" revision="4ca6fc45d86e9942e96799d08957bd3781d13cb9" upstream="LE.AU_EAP.1.0.r2"/>
+  <project name="quic/le/platform/vendor/qcom-opensource/snaptel-sdk" path="telux/public" revision="ce86abf2410d8532ca2305eb03abc9ab7c02045e" upstream="LE.AU_EAP.1.0.r2"/>
+</manifest>
