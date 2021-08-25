@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="git://codeaurora.org/quic/ype" name="caf-ype" review="null"/>
+  <remote fetch="https://source.codeaurora.org/" name="caf" review="codeaurora.org"/>
+  <default remote="caf" revision="LE.UM.3.2.3_rb1.7"/>
+  <project dest-branch="refs/heads/le-ota.lnx.1.0.c26" name="quic/le/OTA/build" revision="5bbadd20deda670db33542552b453184a3bd1461" upstream="refs/heads/le-ota.lnx.1.0.c26" path="OTA/build"/>
+  <project dest-branch="refs/heads/le-ota.lnx.1.0.c26" name="quic/le/OTA/device/qcom/common" revision="3356a5f7801819d58bb66f93f792892bec22d547" upstream="refs/heads/le-ota.lnx.1.0.c26" path="OTA/device/qcom/common"/>
+  <project dest-branch="refs/heads/le-ota.lnx.1.0.c26" name="quic/le/OTA/external/bsdiff" revision="2f6c160807029d6b8eec0dfa490e49fbbf096ca2" upstream="refs/heads/le-ota.lnx.1.0.c26" path="OTA/external/bsdiff"/>
+  <project dest-branch="refs/heads/le-ota.lnx.1.0.c26" name="quic/le/OTA/platform/external/libdivsufsort" path="OTA/external/libdivsufsort" revision="70a94c7454df52eefe5da0a3cd1c10952742d3e6" upstream="refs/heads/le-ota.lnx.1.0.c26"/>
+  <project dest-branch="refs/heads/le-ota.lnx.1.0.c26" name="quic/le/OTA/recovery" revision="fbbb4ac984ad7f487cffb3c0aa9e35437d72d392" upstream="refs/heads/le-ota.lnx.1.0.c26" path="OTA/recovery"/>
+  <project dest-branch="refs/heads/le-ota.lnx.1.0.c26" name="quic/le/OTA/system/core" revision="106cd1462a82356aa7b74b171aea62fcb98ca79a" upstream="refs/heads/le-ota.lnx.1.0.c26" path="OTA/system/core"/>
+  <project dest-branch="refs/heads/le-ota.lnx.1.0.c26" name="quic/le/OTA/system/extras" revision="4814452eebac0b1991fb80f634536d7a6130ef5f" upstream="refs/heads/le-ota.lnx.1.0.c26" path="OTA/system/extras"/>
+  <project dest-branch="refs/heads/uefi.lnx.1.9.1.c16" name="quic/le/abl/tianocore/edk2" path="bootable/bootloader/edk2" revision="ba4a8bb67bbbc6e19dac273efb7173cc4567da72" upstream="refs/heads/uefi.lnx.1.9.1.c16"/>
+  <project dest-branch="refs/heads/mdm-eap.lnx.2.0.c10" name="quic/le/eap-qti-kernel" path="kernel/eap-qti-kernel" revision="262a9ea037fc30cfa96f9ab450e7fe1a3ea5f61f" upstream="refs/heads/mdm-eap.lnx.2.0.c10"/>
+  <project name="external/yoctoproject.org/meta-gplv2" path="poky/meta-gplv2" remote="caf-ype" revision="aabc30f3bd03f97326fb8596910b94639fea7575" upstream="refs/heads/meta-gplv2/thud"/>
+  <project name="external/yoctoproject.org/poky" path="poky" remote="caf-ype" revision="51f6145f8f99a02df1dad937684f014b0172e72a" upstream="refs/heads/yocto/thud"/>
+  <project dest-branch="refs/heads/core-technologies.lnx.2.0.c42" name="quic/le/fs/external/mtd-utils" path="filesystems/mtd-utils" revision="4e86ec4634996e756bea49e6b5cf7506bbd9d5d9" upstream="refs/heads/core-technologies.lnx.2.0.c42"/>
+  <project dest-branch="refs/heads/auto-kernel.lnx.4.14.c5" name="kernel/msm-4.14" revision="7f71b069b5d29771418e18485d2dbc39f77ce55a" upstream="refs/heads/auto-kernel.lnx.4.14.c5"/>
+  <project dest-branch="refs/heads/mdm-ss-mgr.lnx.1.0.c44" name="quic/le/mdm/reboot-daemon" path="mdm-ss-mgr/reboot-daemon" revision="786f011058c6ce1186e03e7b38b4701b0e1de5a2" upstream="refs/heads/mdm-ss-mgr.lnx.1.0.c44"/>
+  <project dest-branch="refs/heads/audio-hal.lnx.5.1.c19" name="quic/le/meta-qti-audio" path="poky/meta-qti-audio" revision="f4afe5ebdb8e63307abb8a691b73fb559504bf03" upstream="refs/heads/audio-hal.lnx.5.1.c19"/>
+  <project dest-branch="refs/heads/automotive.lnx.4.0.c15" name="quic/le/meta-qti-auto" path="poky/meta-qti-auto" revision="99c06940396c62b9a1f6106dc59c30d9a0a8ed9b" upstream="refs/heads/automotive.lnx.4.0.c15"/>
+  <project dest-branch="refs/heads/le-auto-sepolicy.lnx.1.0.c12" name="quic/le/meta-qti-auto-sepolicy" path="poky/meta-qti-auto-sepolicy" revision="aa9dcaadecdf51d30468205bf8bb1b94eb1566f1" upstream="refs/heads/le-auto-sepolicy.lnx.1.0.c12"/>
+  <project dest-branch="refs/heads/yocto.lnx.3.0.c21" name="quic/le/meta-qti-bsp" path="poky/meta-qti-bsp" revision="a177bd8e1153ea00c2a141af8fab6306fa2f6edd" upstream="refs/heads/yocto.lnx.3.0.c21"/>
+  <project dest-branch="refs/heads/core-technologies.lnx.2.0.c42" name="quic/le/meta-qti-core" path="poky/meta-qti-core" revision="5e6993d04ec826e9f86e5524cee3eb2b2839fefe" upstream="refs/heads/core-technologies.lnx.2.0.c42"/>
+  <project dest-branch="refs/heads/data.lnx.1.11.c15" name="quic/le/meta-qti-data" path="poky/meta-qti-data" revision="1e1451168ae85b01f10164e589e84b6f94631ad7" upstream="refs/heads/data.lnx.1.11.c15"/>
+  <project dest-branch="refs/heads/mdm-eap.lnx.2.0.c10" name="quic/le/meta-qti-eap" path="poky/meta-qti-eap" revision="36c1156cfea3997552c0f3938ce9974b590c29bb" upstream="refs/heads/mdm-eap.lnx.2.0.c10"/>
+  <project dest-branch="refs/heads/sec-userspace.lnx.4.2.c22" name="quic/le/meta-qti-security" path="poky/meta-qti-security" revision="ff0560cb048374127b84162131e5aba801d01a29" upstream="refs/heads/sec-userspace.lnx.4.2.c22"/>
+  <project dest-branch="refs/heads/le-sepolicy.lnx.3.0.c14" name="quic/le/meta-qti-sepolicy" path="poky/meta-qti-sepolicy" revision="a4d4dd6b5fe309b9b714bad38683423348b1497c" upstream="refs/heads/le-sepolicy.lnx.3.0.c14"/>
+  <project dest-branch="refs/heads/mdm-ss-mgr.lnx.1.0.c44" name="quic/le/meta-qti-ss-mgr" path="poky/meta-qti-ss-mgr" revision="5f6dd260f9edc2678a3701a04cd52572404278bd" upstream="refs/heads/mdm-ss-mgr.lnx.1.0.c44"/>
+  <project dest-branch="refs/heads/le-sepolicy.lnx.3.0.c14" name="quic/le/meta-selinux" path="poky/meta-selinux" revision="2c176184de59d1b991deade17613758928fe3606" upstream="refs/heads/le-sepolicy.lnx.3.0.c14"/>
+  <project dest-branch="refs/heads/vnw-open-avb.lnx.1.1.c26" name="quic/automotive/platform/external/Open-AVB" path="external/open-avb" revision="c5da09e513e13456cb6c8cb98df410abb16e3ae8" upstream="refs/heads/vnw-open-avb.lnx.1.1.c26"/>
+  <project dest-branch="refs/heads/data.lnx.1.11.c15" name="platform/external/compat-wireless" path="external/compat-wireless" revision="0143c07f3b1594a9259b7a0fe041deb5f4db8099" upstream="refs/heads/data.lnx.1.11.c15"/>
+  <project dest-branch="refs/heads/le-blast.lnx.1.3.c19" name="platform/external/libselinux" path="external/libselinux" revision="ee539d24828440eda6115da4f300937383c6a98d" upstream="refs/heads/le-blast.lnx.1.3.c19"/>
+  <project dest-branch="refs/heads/le-blast.lnx.1.3.c19" name="platform/external/safe-iop" path="external/safe-iop" revision="aa0725fb1da35e47676b6da30009322eb5ed59be" upstream="refs/heads/le-blast.lnx.1.3.c19"/>
+  <project dest-branch="refs/heads/le-blast.lnx.1.3.c19" name="platform/hardware/libhardware" path="hardware/libhardware" revision="039eeed13b28c787d96a7c4903046cf19f517ba0" upstream="refs/heads/le-blast.lnx.1.3.c19"/>
+  <project dest-branch="refs/heads/audio-hal.lnx.5.1.c19" groups="qcom,default" name="platform/hardware/qcom/audio" path="hardware/qcom/audio" revision="047b51fed039d6031fcf6fe755b7202f043dd849" upstream="refs/heads/audio-hal.lnx.5.1.c19"/>
+  <project dest-branch="refs/heads/location.lnx.4.0.c30" name="platform/hardware/qcom/gps" path="hardware/qcom/gps" revision="1594a8c214824549a5ef069f23ee18264980bae7" upstream="refs/heads/location.lnx.4.0.c30"/>
+  <project dest-branch="refs/heads/telsdk.lnx.2.0.c16" name="platform/hardware/ril" path="telux/services/ril" revision="62c95e94cea52fc88a7908f78567f729516a6026" upstream="refs/heads/telsdk.lnx.2.0.c16"/>
+  <project dest-branch="refs/heads/mdm-ss-mgr.lnx.1.0.c44" name="quic/le/platform/init_mss" path="mdm-ss-mgr/init_mss" revision="e1db20af1ebf5d99429161e3ad213d75acfb696c" upstream="refs/heads/mdm-ss-mgr.lnx.1.0.c44"/>
+  <project dest-branch="refs/heads/telsdk.lnx.2.0.c16" name="quic/le/platform/open-source/telematics-apps" path="telematics/apps/open-source" revision="08f968349d80509d4787eb8673bd7cad5ddb3e88" upstream="refs/heads/telsdk.lnx.2.0.c16"/>
+  <project dest-branch="refs/heads/le-blast.lnx.1.3.c19" name="platform/system/core" path="system/core" revision="61b2a2b77a36169a116fc70b373b7c585d639dfd" upstream="refs/heads/le-blast.lnx.1.3.c19"/>
+  <project dest-branch="refs/heads/le-blast.lnx.1.3.c19" name="platform/system/extras" path="system/extras" revision="8ef7dae5e1a207c4683e7ea3ee534ea94d13787a" upstream="refs/heads/le-blast.lnx.1.3.c19"/>
+  <project dest-branch="refs/heads/audio-drivers.lnx.3.1.c28" name="platform/vendor/opensource/audio-kernel" path="vendor/qcom/opensource/audio-kernel" revision="ee1825be525aeca7b7178bc9e71ec5cc2eaa9351" upstream="refs/heads/audio-drivers.lnx.3.1.c28"/>
+  <project dest-branch="refs/heads/aerolink-cv2x-sec.lnx.1.0.c4" name="quic/le/platform/vendor/qcom-opensource/cv2x-security-aerolink-public" path="cv2x/security/aerolink-public" revision="4679c00c902efb4aeba5e1de8c129dd52692b7c8" upstream="refs/heads/aerolink-cv2x-sec.lnx.1.0.c4"/>
+  <project dest-branch="refs/heads/data.lnx.1.11.c15" name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" path="data-ipa-cfg-mgr" revision="e4b62d668866104b22f4f56dd9174f04a66e4a31" upstream="refs/heads/data.lnx.1.11.c15"/>
+  <project dest-branch="refs/heads/data.lnx.1.11.c15" name="platform/vendor/qcom-opensource/data-kernel" path="data-kernel" revision="ad365aed9fe7fda04460afa30de78692fe70cd38" upstream="refs/heads/data.lnx.1.11.c15"/>
+  <project dest-branch="refs/heads/data.lnx.1.11.c15" name="platform/vendor/qcom-opensource/dataservices" path="vendor/qcom/opensource/dataservices" revision="ec91bbdd3984b6f8b92119f344b989c80c2cdea8" upstream="refs/heads/data.lnx.1.11.c15"/>
+  <project dest-branch="refs/heads/audio-mdm.lnx.1.0.c33" name="platform/vendor/qcom-opensource/kernel-tests/mm-audio" path="qcom-opensource/mm-audio" revision="0b127436022287ab5d2bf47d27114ec4cadf4488" upstream="refs/heads/audio-mdm.lnx.1.0.c33"/>
+  <project dest-branch="refs/heads/location.lnx.4.0.c30" name="platform/vendor/qcom-opensource/location" path="vendor/qcom/opensource/location" revision="3d6fadd4411cd2a8194d1dd04d81bbe664463976" upstream="refs/heads/location.lnx.4.0.c30"/>
+  <project dest-branch="refs/heads/data.lnx.1.11.c15" name="quic/le/platform/vendor/qcom-opensource/shortcut-fe" path="shortcut-fe" revision="6221af8cf578d49e6ae62e78b362d53128cbdbd3" upstream="refs/heads/data.lnx.1.11.c15"/>
+  <project dest-branch="refs/heads/telsdk.lnx.2.0.c16" name="quic/le/platform/vendor/qcom-opensource/snaptel-sdk" path="telux/public" revision="f59b8d9567adc67322b3985e0c63cbf502da46e3" upstream="refs/heads/telsdk.lnx.2.0.c16"/>
+  <project dest-branch="refs/heads/data.lnx.1.11.c15" name="quic/le/platform/vendor/qcom-opensource/tcp-splice" path="tcp-splice" revision="52f87bc421398b50103c0ab6e0584e61d1524054" upstream="refs/heads/data.lnx.1.11.c15"/>
+  <project dest-branch="refs/heads/data.lnx.1.11.c15" name="quic/le/pmipv6" revision="e1767066b85009c636668f768bf8a2e1a1695ba6" upstream="refs/heads/data.lnx.1.11.c15" path="pmipv6"/>
+  <project dest-branch="refs/heads/pulseaudio.lnx.1.0.c12" name="quic/le/pulseaudio" path="external/pulseaudio" revision="530417c1a589609a591a92fcf4e12c7bdfdd28aa" upstream="refs/heads/pulseaudio.lnx.1.0.c12"/>
+  <project dest-branch="refs/heads/yocto.lnx.3.0.c21" name="quic/le/qti-conf" path="poky/build/conf" revision="6d8c8b36ff63329d8a23114eff45f9dbdf5c9d97" upstream="refs/heads/yocto.lnx.3.0.c21"/>
+</manifest>
