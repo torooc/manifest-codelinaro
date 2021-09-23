@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="https://source.codeaurora.org/" name="caf" review="codeaurora.org"/>
+  <default remote="caf" revision="refs/heads/UC.UM.1.0"/>
+  <project groups="cyborg" name="quic/le/abl/tianocore/edk2" path="src/bootable/bootloader/edk2" revision="e609ab100699864d73cd0668d65ca22545570926" upstream="refs/heads/iot-uefi.lnx.1.9.1.r1-rel"/>
+  <project name="quic/le/fs/external/mtd-utils" path="src/filesystems/mtd-utils" revision="4d32bde3e99ad9a2de2a1333235cabba179ceaa3" upstream="refs/heads/core-technologies.lnx.3.2.r1-rel"/>
+  <project groups="cyborg" name="kernel/msm-4.14" path="src/kernel/msm-4.14" revision="30331e39fad81d84768b41ee75bfd23fcfd494d5" upstream="refs/heads/iot-kernel.lnx.4.14.r1-rel"/>
+  <project name="quic/le/mdm/reboot-daemon" path="src/reboot-daemon" revision="786f011058c6ce1186e03e7b38b4701b0e1de5a2" upstream="refs/heads/mdm-ss-mgr-ubcore.lnx.1.0.r1-rel"/>
+  <project name="quic/le/meta-qti-core" path="disregard/poky/meta-qti-core" revision="bf85630ef699156a3f761dc5b88b3383cf64e807" upstream="refs/heads/core-technologies.lnx.3.2.r1-rel"/>
+  <project name="platform/external/safe-iop" path="src/external/safe-iop" revision="aa0725fb1da35e47676b6da30009322eb5ed59be" upstream="refs/heads/le-blast.lnx.1.4.r11-rel"/>
+  <project name="platform/hardware/libhardware" path="src/hardware/libhardware" revision="1f3af11343706f528ab57ddcd4eacc6d31f9bede" upstream="refs/heads/le-blast.lnx.1.4.r11-rel"/>
+  <project name="platform/system/core" path="src/system/core" revision="0221d37823f4dd179f7f523412443b8cd4390bf4" upstream="refs/heads/le-blast.lnx.1.4.r11-rel"/>
+  <project name="platform/system/extras" path="src/system/extras" revision="07811352a68569ffc77c5148515c89a7d0a9b3a1" upstream="refs/heads/le-blast.lnx.1.4.r11-rel"/>
+  <project name="platform/vendor/qcom-opensource/location" path="src/qcom-opensource/location" revision="5e662ea8ab08ac73e7173f9495f017183c8e45fc" upstream="refs/heads/location-ubn.lnx.1.0.r1-rel"/>
+  <project name="quic/le/snap/yaml" revision="3ddeebc2d8d9ff72614318898cffdc5e7b8e88fb" upstream="refs/heads/ubcore.lnx.1.0.r1-rel" path="snap/yaml"/>
+  <project name="quic/le/snap/yaml-gadget" revision="153ea4f976b8b57ca073e872b34653d0bc653b4d" upstream="refs/heads/iot-uefi.lnx.1.9.1.r1-rel" path="snap/yaml-gadget"/>
+  <project name="quic/le/snap/yaml-kernel" revision="f87a542dd0e45ad0f5322be0ca163d9c0e3077ae" upstream="refs/heads/iot-kernel.lnx.4.14.r1-rel" path="snap/yaml-kernel"/>
+</manifest>
