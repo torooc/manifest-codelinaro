@@ -24,7 +24,7 @@
   <project name="clo/le/gstreamer-1.14.4/gst-rtsp-server" path="external/gstreamer-1.14.4/gst-rtsp-server" revision="refs/heads/gstreamer.lnx.1.0.r3-rel"/>
   <project name="clo/le/gstreamer-1.14.4/gstreamer" path="external/gstreamer-1.14.4/gstreamer" revision="refs/heads/gstreamer.lnx.1.0.r3-rel"/>
   <project name="clo/le/gstreamer-1.14.4/gstreamer-vaapi" path="external/gstreamer-1.14.4/gstreamer-vaapi" revision="refs/heads/gstreamer.lnx.1.0.r3-rel"/>
-  <project name="clo/la/kernel/msm-4.14" revision="refs/heads/kernel.lnx.4.14.r45-rel"/>
+  <project name="clo/la/kernel/msm-4.14" revision="refs/heads/kernel.lnx.4.14.r45-rel" path="kernel/msm-4.14"/>
   <project name="clo/le/mdm/reboot-daemon" path="mdm-ss-mgr/reboot-daemon" revision="refs/heads/mdm-ss-mgr.lnx.1.0.r37-rel"/>
   <project name="clo/le/meta-qti-adk" path="poky/meta-qti-adk" revision="refs/heads/adk-meta.lnx.1.0.r9-rel"/>
   <project name="clo/le/meta-qti-audio" path="poky/meta-qti-audio" revision="refs/heads/audio-hal.lnx.6.1.r5-rel"/>
