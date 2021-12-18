@@ -15,7 +15,7 @@
   <project name="external/yoctoproject.org/meta-gplv2" path="poky/meta-gplv2" remote="clo-ype" revision="refs/heads/meta-gplv2/thud"/>
   <project name="external/yoctoproject.org/poky" path="poky" remote="clo-ype" revision="51f6145f8f99a02df1dad937684f014b0172e72a" upstream="refs/heads/yocto/thud"/>
   <project dest-branch="refs/heads/core-technologies.lnx.2.0.c46" name="clo/le/fs/external/mtd-utils" path="filesystems/mtd-utils" revision="4e86ec4634996e756bea49e6b5cf7506bbd9d5d9" upstream="refs/heads/core-technologies.lnx.2.0.c46"/>
-  <project dest-branch="refs/heads/auto-kernel.lnx.4.14.c23" name="clo/la/kernel/msm-4.14" revision="a0732a9fd9fcd5623c9fb61be2d2fbf28c4e7c92" upstream="refs/heads/auto-kernel.lnx.4.14.c23"/>
+  <project dest-branch="refs/heads/auto-kernel.lnx.4.14.c23" name="clo/la/kernel/msm-4.14" path="kernel/msm-4.14" revision="a0732a9fd9fcd5623c9fb61be2d2fbf28c4e7c92" upstream="refs/heads/auto-kernel.lnx.4.14.c23"/>
   <project dest-branch="refs/heads/mdm-ss-mgr.lnx.1.0.c48" name="clo/le/mdm/reboot-daemon" path="mdm-ss-mgr/reboot-daemon" revision="786f011058c6ce1186e03e7b38b4701b0e1de5a2" upstream="refs/heads/mdm-ss-mgr.lnx.1.0.c48"/>
   <project dest-branch="refs/heads/audio-hal.lnx.5.1.1.c7" name="clo/le/meta-qti-audio" path="poky/meta-qti-audio" revision="2c200fb219cb55994331836e01a1ce0be8f67055" upstream="refs/heads/audio-hal.lnx.5.1.1.c7"/>
   <project dest-branch="refs/heads/automotive.lnx.4.0.c19" name="clo/le/meta-qti-auto" path="poky/meta-qti-auto" revision="d6d7f24ac48ad89f6094ecd846ce3308fc19d7d5" upstream="refs/heads/automotive.lnx.4.0.c19"/>

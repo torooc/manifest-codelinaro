@@ -15,7 +15,7 @@
   <project name="external/yoctoproject.org/meta-virtualization" path="poky/meta-virtualization" remote="clo-ype" revision="9e8c0c96b443828a255e7d6ca6291598347672ac"/>
   <project name="external/yoctoproject.org/poky" path="poky" remote="clo-ype" revision="f5a57e939e626a5b7c6de5b51799ca602ed355ed"/>
   <project name="clo/filesystems/fs/external/mtd-utils" path="filesystems/mtd-utils"/>
-  <project name="clo/la/kernel/msm-4.9"/>
+  <project name="clo/la/kernel/msm-4.9" path="kernel/msm-4.9"/>
   <project name="clo/le/mdm/reboot-daemon" path="mdm-ss-mgr/reboot-daemon"/>
   <project name="clo/le/meta-qti-audio" path="poky/meta-qti-audio"/>
   <project name="clo/le/meta-qti-bsp" path="poky/meta-qti-bsp"/>
