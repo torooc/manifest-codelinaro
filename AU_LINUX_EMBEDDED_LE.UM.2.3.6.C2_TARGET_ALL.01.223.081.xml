@@ -25,7 +25,7 @@
   <project name="clo/le/meta-qti-security" path="poky/meta-qti-security" revision="09352ad8ae0533bd5a038556e961481d58942659" upstream="refs/heads/sec-userspace.lnx.1.0.r39"/>
   <project name="clo/le/meta-qti-ss-mgr" path="poky/meta-qti-ss-mgr" revision="ffbb88348148159848c3297b4026f71bc5327fa6" upstream="refs/heads/mdm-ss-mgr.lnx.1.0.r30"/>
   <project name="clo/le/meta-qti-telsdk" path="poky/meta-qti-telsdk" revision="cbb1344f3450256575f9537178daf5a4bb8258ac" upstream="refs/heads/telsdk.lnx.1.0.r5"/>
-  <project name="clo/le/meta-qti-wlan" path="poky/meta-qti-wlan" revision="1a88dff043cd90fc39371169144586871039a467" upstream="refs/heads/wlan-service.lnx.1.3.r6"/>
+  <project name="clo/le/('Connection" path="poky/meta-qti-wlan" revision="1a88dff043cd90fc39371169144586871039a467" upstream="refs/heads/wlan-service.lnx.1.3.r6"/>
   <project name="clo/automotive/platform/external/Open-AVB" path="external/open-avb" revision="5e51b2173a1639abd35f157c5e31e80b0e392c3b" upstream="refs/heads/vnw-open-avb.lnx.1.0.r11"/>
   <project name="clo/la/platform/external/bluetooth/bluez" path="external/bluetooth/bluez" revision="bf36c74d337a9d98b9d00a444596847b61a906a6" upstream="refs/heads/bt.le.1.0.r25"/>
   <project name="clo/la/platform/external/compat-wireless" path="external/compat-wireless" revision="0143c07f3b1594a9259b7a0fe041deb5f4db8099" upstream="refs/heads/data.lnx.1.0.r36"/>
