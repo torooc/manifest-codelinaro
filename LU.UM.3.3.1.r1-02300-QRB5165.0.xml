@@ -4,7 +4,6 @@
   <remote fetch="https://git.codelinaro.org/clo/la" name="clo-la"/>
   <remote fetch="https://git.codelinaro.org/clo/lc" name="clo-lc"/>
   <remote fetch="https://git.codelinaro.org/clo/le" name="clo-le"/>
-  <remote fetch="https://git.codelinaro.org/clo/qsdk" name="clo-qsdk"/>
   <remote fetch="https://git.codelinaro.org/clo/ype" name="clo-ype"/>
   <default remote="clo-filesystems" revision="dummy_revision" sync-c="true" sync-tags="false"/>
   <project remote="clo-le" name="abl/tianocore/edk2" path="src/bootable/bootloader/edk2" revision="076238a677629af762a3846184e64e528e021477" upstream="refs/heads/iot-uefi.lnx.3.0.r1-rel"/>
@@ -94,8 +93,8 @@
   <project remote="clo-le" name="platform/vendor/qcom-opensource/tcp-splice" path="src/tcp-splice" revision="a7bcad280a4ab691abfb35b279a179b69680088e" upstream="refs/heads/data.lnx.1.1.1.r7-rel"/>
   <project remote="clo-le" name="platform/vendor/qcom-opensource/tools" path="src/vendor/qcom/opensource/tools" revision="ac5c0d8a3108f572468d98408a16ec8d05209991" upstream="refs/heads/opensource-tools.lnx.1.0.r176-rel"/>
   <project remote="clo-le" name="platform/vendor/qcom-opensource/ubuntu-oss" path="src/vendor/qcom/opensource/ubuntu-oss" revision="ac778b48cf7ebfca16ea08389e972ab65e884f13" upstream="refs/heads/ubuntu.lnx.2.0.r1-rel"/>
-  <project remote="clo-la" name="platform/vendor/qcom-opensource/wlan/fw-api" path="src/qcawifi/qca-wifi/cmn_dev/fw_hdr" revision="50c4615a8ea84183a645ed8a216993d7fea7ac3a" upstream="refs/heads/qcawifi-driver.lnx.2.0.r1-rel"/>
-  <project remote="clo-la" name="platform/vendor/qcom-opensource/wlan/qca-wifi-host-cmn" path="src/qcawifi/qca-wifi/cmn_dev" revision="64af5739cafcf59d082ff57948c785b2dbc8d2d6" upstream="refs/heads/qcawifi-driver.lnx.2.0.r1-rel"/>
+  <project remote="clo-la" name="platform/vendor/qcom-opensource/wlan/fw-api" path="src/wlan/fw-api" revision="50c4615a8ea84183a645ed8a216993d7fea7ac3a" upstream="refs/heads/wlan-api.lnx.1.0.r136-rel"/>
+  <project remote="clo-la" name="platform/vendor/qcom-opensource/wlan/qca-wifi-host-cmn" path="src/wlan/qca-wifi-host-cmn" revision="64af5739cafcf59d082ff57948c785b2dbc8d2d6" upstream="refs/heads/wlan-cmn.driver.lnx.2.0.r82-rel"/>
   <project remote="clo-la" name="platform/vendor/qcom-opensource/wlan/qcacld-3.0" path="src/wlan/qcacld-3.0" revision="5da613227a4251e4d77717ad382c11c62e1c29f0" upstream="refs/heads/wlan-cld3.driver.lnx.2.0.r82-rel"/>
   <project remote="clo-la" name="platform/vendor/qcom-opensource/wlan/utils/sigma-dut" path="src/wlan/utils/sigma-dut" revision="7f1cee460891b360b7b762dd9fd6562282ce7384" upstream="refs/heads/wlan-service.lnx.6.0.r59-rel"/>
   <project remote="clo-le" name="platform/vendor/qcom/wlan" path="src/device/qcom/wlan" revision="076bcd0a103618767f9ec3ac8901640a1c240601" upstream="refs/heads/wlan-service.lnx.6.0.r59-rel"/>
