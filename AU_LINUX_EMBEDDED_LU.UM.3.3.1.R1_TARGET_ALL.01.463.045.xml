@@ -4,23 +4,8 @@
   <remote fetch="https://git.codelinaro.org/clo/la" name="clo-la"/>
   <remote fetch="https://git.codelinaro.org/clo/lc" name="clo-lc"/>
   <remote fetch="https://git.codelinaro.org/clo/le" name="clo-le"/>
-  <remote fetch="https://git.codelinaro.org/clo/qsdk" name="clo-qsdk"/>
   <remote fetch="https://git.codelinaro.org/clo/ype" name="clo-ype"/>
   <default remote="clo-filesystems" revision="dummy_revision" sync-c="true" sync-tags="false"/>
-  <project remote="clo-la" name="platform/hardware/qcom/display" path="src/hardware/qcom/display" revision="bf3957e8dd1c17b96be7e691f17af8a61cf5ef67" upstream="refs/heads/display.lnx.7.8.r2-rel">
-    <linkfile dest="src/vendor/qcom/defs/product-defs/vendor/display-product.mk" src="config/display-product.mk"/>
-    <linkfile dest="src/vendor/qcom/defs/board-defs/vendor/display-board.mk" src="config/display-board.mk"/>
-  </project>
-  <project remote="clo-la" name="platform/hardware/qcom/media" path="src/hardware/qcom/media" revision="43c0a9809545b3d38da3c70d7b838a05f12d856e" upstream="refs/heads/lnx.omx.core.1.0.r17-rel">
-    <linkfile dest="src/vendor/qcom/defs/product-defs/vendor/video-product.mk" src="product.mk"/>
-  </project>
-  <project remote="clo-le" name="platform/vendor/qcom-opensource/display-commonsys-intf" path="src/vendor/qcom/opensource/commonsys-intf/display" revision="33024335933ffe7ce1b29942b16ed6acc207042f" upstream="refs/heads/display-sysintf.lnx.1.2.r36-rel">
-    <linkfile dest="src/vendor/qcom/defs/product-defs/system/display-product-system.mk" src="config/display-product-system.mk"/>
-    <linkfile dest="src/vendor/qcom/defs/product-defs/vendor/display-interfaces-product.mk" src="config/display-interfaces-product.mk"/>
-  </project>
-  <project remote="clo-le" name="qti-conf" path="poky/qti-conf" revision="6c2b5ab5515f3f5e7d1a7294b90cd5fc20e9e8f6" upstream="refs/heads/yocto.lnx.4.0.r8-rel">
-    <linkfile dest="setup-environment" src="set_bb_env.sh"/>
-  </project>
   <project remote="clo-le" name="abl/tianocore/edk2" path="src/bootable/bootloader/edk2" revision="62c97b5096e97222a2ccda872747fdee296a31be" upstream="refs/heads/iot-uefi.lnx.3.0.r1-rel"/>
   <project remote="clo-le" name="aosphal-adaptation" path="src/aosphal-adaptation" revision="b6584cb774758301a1056e5817d10265137f7c20" upstream="refs/heads/aosphal-le-adaptation.lnx.1.0.r5-rel"/>
   <project remote="clo-le" name="display/libgbm" path="src/display/libgbm" revision="bc3b35aed231090e821c43643b89482af6098527" upstream="refs/heads/display.lnx.7.8.r2-rel"/>
@@ -69,6 +54,13 @@
   <project remote="clo-la" name="platform/hardware/libhardware" path="disregard/hardware/libhardware" revision="860636170aea9936fa26c609baaec5502f12e745" upstream="refs/heads/le-blast.lnx.1.4.r16-rel"/>
   <project remote="clo-la" name="platform/hardware/qcom/audio" path="src/hardware/qcom/audio" revision="6a0db03136115790156727591b346dc8314f7053" upstream="refs/heads/audio-hal.lnx.8.0.r73-rel"/>
   <project remote="clo-la" name="platform/hardware/qcom/bt" path="src/hardware/qcom/bt" revision="3dbf2daa472493719f328f6b7374a7267c30a306" upstream="refs/heads/bt.lnx.le.1.0.2.r4-rel"/>
+  <project remote="clo-la" name="platform/hardware/qcom/display" path="src/hardware/qcom/display" revision="bf3957e8dd1c17b96be7e691f17af8a61cf5ef67" upstream="refs/heads/display.lnx.7.8.r2-rel">
+    <linkfile dest="src/vendor/qcom/defs/product-defs/vendor/display-product.mk" src="config/display-product.mk"/>
+    <linkfile dest="src/vendor/qcom/defs/board-defs/vendor/display-board.mk" src="config/display-board.mk"/>
+  </project>
+  <project remote="clo-la" name="platform/hardware/qcom/media" path="src/hardware/qcom/media" revision="43c0a9809545b3d38da3c70d7b838a05f12d856e" upstream="refs/heads/lnx.omx.core.1.0.r17-rel">
+    <linkfile dest="src/vendor/qcom/defs/product-defs/vendor/video-product.mk" src="product.mk"/>
+  </project>
   <project remote="clo-la" name="platform/hardware/qcom/wlan" path="src/hardware/qcom/wlan" revision="005f2ca070f7104d0e0ed65bfb19add7ed5c2386" upstream="refs/heads/wlan-aosp.lnx.6.0.r50-rel"/>
   <project remote="clo-le" name="platform/init_mss" path="src/mdm-ss-mgr/init_mss" revision="e1db20af1ebf5d99429161e3ad213d75acfb696c" upstream="refs/heads/mdm-ss-mgr.lnx.1.0.r42-rel"/>
   <project remote="clo-le" name="platform/qcom-opensource/bt" path="src/qcom-opensource/bt" revision="50ce79c021fe248abe163c1b27ccb69a7a7adbac" upstream="refs/heads/bt.lnx.le.1.0.2.r4-rel"/>
@@ -87,6 +79,10 @@
   <project remote="clo-la" name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" path="src/data-ipa-cfg-mgr" revision="c4d8ad2639cc3acaaa087ab665c9958030469c50" upstream="refs/heads/data.lnx.1.1.1.r7-rel"/>
   <project remote="clo-la" name="platform/vendor/qcom-opensource/data-kernel" path="src/data-kernel" revision="634112be3dc9a61037ab1f8f8749a8c156b612ea" upstream="refs/heads/data.lnx.1.1.1.r7-rel"/>
   <project remote="clo-la" name="platform/vendor/qcom-opensource/dataservices" path="src/data-oss" revision="443622053d759720ae0024ccbc3f6c5f6c51187d" upstream="refs/heads/data.lnx.1.1.1.r7-rel"/>
+  <project remote="clo-le" name="platform/vendor/qcom-opensource/display-commonsys-intf" path="src/vendor/qcom/opensource/commonsys-intf/display" revision="33024335933ffe7ce1b29942b16ed6acc207042f" upstream="refs/heads/display-sysintf.lnx.1.2.r36-rel">
+    <linkfile dest="src/vendor/qcom/defs/product-defs/system/display-product-system.mk" src="config/display-product-system.mk"/>
+    <linkfile dest="src/vendor/qcom/defs/product-defs/vendor/display-interfaces-product.mk" src="config/display-interfaces-product.mk"/>
+  </project>
   <project remote="clo-le" name="platform/vendor/qcom-opensource/gst-plugins-qti-oss" path="src/vendor/qcom/opensource/gst-plugins-qti-oss" revision="c1a80adf9d009995f2cc422ddca9b46eaa51c49e" upstream="refs/heads/le-gst.lnx.2.1.r9-rel"/>
   <project remote="clo-le" name="platform/vendor/qcom-opensource/le-framework" path="src/frameworks" revision="6fc673643e65361019badd066f9e0ef88a82d702" upstream="refs/heads/le-frameworks.lnx.2.1.r15-rel"/>
   <project remote="clo-le" name="platform/vendor/qcom-opensource/qmmf-sdk" path="src/vendor/qcom/opensource/qmmf-sdk" revision="c75b5a0f0bc105955de59b5496d81053657ba6fc" upstream="refs/heads/iot-concam.lnx.2.0.r16-rel"/>
@@ -97,13 +93,16 @@
   <project remote="clo-le" name="platform/vendor/qcom-opensource/tcp-splice" path="src/tcp-splice" revision="a7bcad280a4ab691abfb35b279a179b69680088e" upstream="refs/heads/data.lnx.1.1.1.r7-rel"/>
   <project remote="clo-le" name="platform/vendor/qcom-opensource/tools" path="src/vendor/qcom/opensource/tools" revision="d17f31c9876d5a099dd6a0f8f6a0138d56a0806d" upstream="refs/heads/opensource-tools.lnx.1.0.r176-rel"/>
   <project remote="clo-le" name="platform/vendor/qcom-opensource/ubuntu-oss" path="src/vendor/qcom/opensource/ubuntu-oss" revision="fb6de76e43b967abdecd504c38e6600723b17ed2" upstream="refs/heads/ubuntu.lnx.2.0.r1-rel"/>
-  <project remote="clo-la" name="platform/vendor/qcom-opensource/wlan/fw-api" path="src/qcawifi/qca-wifi/cmn_dev/fw_hdr" revision="50c4615a8ea84183a645ed8a216993d7fea7ac3a" upstream="refs/heads/qcawifi-driver.lnx.2.0.r1-rel"/>
-  <project remote="clo-la" name="platform/vendor/qcom-opensource/wlan/qca-wifi-host-cmn" path="src/qcawifi/qca-wifi/cmn_dev" revision="4243b0ca8edf41dd77840378c190baef8105b63e" upstream="refs/heads/qcawifi-driver.lnx.2.0.r1-rel"/>
+  <project remote="clo-la" name="platform/vendor/qcom-opensource/wlan/fw-api" path="src/wlan/fw-api" revision="50c4615a8ea84183a645ed8a216993d7fea7ac3a" upstream="refs/heads/wlan-api.lnx.1.0.r136-rel"/>
+  <project remote="clo-la" name="platform/vendor/qcom-opensource/wlan/qca-wifi-host-cmn" path="src/wlan/qca-wifi-host-cmn" revision="4243b0ca8edf41dd77840378c190baef8105b63e" upstream="refs/heads/wlan-cmn.driver.lnx.2.0.r82-rel"/>
   <project remote="clo-la" name="platform/vendor/qcom-opensource/wlan/qcacld-3.0" path="src/wlan/qcacld-3.0" revision="c151ddb4379d4ff03835cebf71c926a43aa5d576" upstream="refs/heads/wlan-cld3.driver.lnx.2.0.r82-rel"/>
   <project remote="clo-la" name="platform/vendor/qcom-opensource/wlan/utils/sigma-dut" path="src/wlan/utils/sigma-dut" revision="7f1cee460891b360b7b762dd9fd6562282ce7384" upstream="refs/heads/wlan-service.lnx.6.0.r59-rel"/>
   <project remote="clo-le" name="platform/vendor/qcom/wlan" path="src/device/qcom/wlan" revision="076bcd0a103618767f9ec3ac8901640a1c240601" upstream="refs/heads/wlan-service.lnx.6.0.r59-rel"/>
   <project remote="clo-le" name="pmipv6" path="src/pmipv6" revision="e1767066b85009c636668f768bf8a2e1a1695ba6" upstream="refs/heads/data.lnx.1.1.1.r7-rel"/>
   <project remote="clo-le" name="pulseaudio" path="src/external/pulseaudio" revision="e0f2557dec905519e2c3f934f46fe41211a5d2b0" upstream="refs/heads/pulseaudio.lnx.2.0.r6-rel"/>
   <project remote="clo-le" name="qcom-opensource/mdm-init" path="src/mdm-init" revision="04a24cbcc660eda2df2ca7adc4d9e7d073a900c7" upstream="refs/heads/wlan-tools.lnx.5.0.r27-rel"/>
+  <project remote="clo-le" name="qti-conf" path="poky/qti-conf" revision="6c2b5ab5515f3f5e7d1a7294b90cd5fc20e9e8f6" upstream="refs/heads/yocto.lnx.4.0.r8-rel">
+    <linkfile dest="setup-environment" src="set_bb_env.sh"/>
+  </project>
   <project remote="clo-le" name="wayland/weston" path="src/display/weston" revision="d7a5b5b857db6d54ec02e421772c2f4a6a6062b1" upstream="refs/heads/display.lnx.7.8.r2-rel"/>
 </manifest>
