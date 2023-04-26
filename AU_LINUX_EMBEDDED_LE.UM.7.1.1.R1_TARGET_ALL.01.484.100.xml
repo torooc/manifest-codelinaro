@@ -11,7 +11,7 @@
   <project remote="clo-le" name="meta-qti-data" path="poky/meta-qti-data" revision="16411ec1caa4df3da0cb64ffb27740cff70b0547" upstream="refs/heads/datacsm.lnx.1.0.r1-rel"/>
   <project remote="clo-le" name="meta-qti-distro" path="poky/meta-qti-distro" revision="b93d38163a3149d37bbcd200214011cd9212ce71" upstream="refs/heads/yocto.lnx.4.0.r11-rel"/>
   <project remote="clo-le" name="meta-qti-mplane" path="poky/meta-qti-mplane" revision="ee2b5b20ba30cd86d8ae78a5b461913276452e2f" upstream="refs/heads/csm_mplane.lnx.1.0.r1-rel"/>
-  <project remote="clo-le" name="meta-qti-security" path="poky/meta-qti-security" revision="bca5b9d26842fae2451d205a2d31b7db1c16ee3e" upstream="refs/heads/sec-userspace.lnx-meta.12.0.r3-rel"/>
+  <project remote="clo-le" name="meta-qti-security" path="poky/meta-qti-security" revision="bca5b9d26842fae2451d205a2d31b7db1c16ee3e" upstream="refs/heads/sec-userspace.lnx.13.0.r4-rel"/>
   <project remote="clo-le" name="meta-qti-sepolicy" path="poky/meta-qti-sepolicy" revision="4ba4f12da108ab0caa275960277fc7075f820945" upstream="refs/heads/le-sepolicy.lnx.4.0.r9-rel"/>
   <project remote="clo-le" name="meta-qti-ss-mgr" path="poky/meta-qti-ss-mgr" revision="092549c4c0cc2b9b4fa9a128844f50ac14773e32" upstream="refs/heads/mdm-ss-mgr.lnx.1.1.r9-rel"/>
   <project remote="clo-le" name="meta-qti-transceiver-driver" path="poky/meta-qti-transceiver-driver" revision="841057d532ddc65570c1b9ef2630cab75653398a" upstream="refs/heads/csm-transceiver.lnx.1.0.r1-rel"/>
