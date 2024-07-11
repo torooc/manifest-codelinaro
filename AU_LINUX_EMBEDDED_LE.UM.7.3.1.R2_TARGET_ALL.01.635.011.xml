@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="clo" fetch="https://git.codelinaro.org" review="codelinaro.org"/>
+  <default remote="clo" revision="refs/heads/LE.UM.6.3.3"/>
+  <project name="clo/le/external/openembedded.org/meta-openembedded" path="poky/meta-openembedded" revision="02b04a20d46ca2d7fe813dbf2ec377553fc41bac" upstream="refs/heads/oe-meta-openembedded.lnx.3.0.r27-rel"/>
+  <project name="clo/le/external/yoctoproject.org/meta-gplv2" path="poky/meta-gplv2" revision="60b251c25ba87e946a0ca4cdc8d17b1cb09292ac" upstream="refs/heads/yocto-meta-gplv2.lnx.2.0.r21-rel"/>
+  <project name="clo/le/external/yoctoproject.org/poky" path="poky" revision="aa0073041806c9f417a33b0b7f747d2a86289eda" upstream="refs/heads/yocto-upstream.lnx.4.0.r27-rel"/>
+  <project name="clo/le/fs/external/mtd-utils" path="src/filesystems/mtd-utils" revision="19e2c220a3308d1ccc73f87d9ff7099e4b6278d7" upstream="refs/heads/core-technologies.lnx.14.0.r31-rel"/>
+  <project name="clo/le/meta-qti-bsp" path="poky/meta-qti-bsp" revision="ec9f406a610bcf49c7c4b9d8c5ed065aeca4dad2" upstream="refs/heads/yocto.lnx.4.0.r21-rel"/>
+  <project name="clo/le/meta-qti-core" path="poky/meta-qti-core" revision="f9ecee0d95befef2486cc9f7260b29889f9ff422" upstream="refs/heads/core-technologies.lnx.14.0.r31-rel"/>
+  <project name="clo/le/meta-qti-distro" path="poky/meta-qti-distro" revision="515784bab4b57624947dc41c463e99bec194f7b6" upstream="refs/heads/yocto.lnx.4.0.r21-rel"/>
+  <project name="clo/le/meta-qti-linuxsecurity" path="poky/meta-qti-linuxsecurity" revision="dce94de76057ee6e1dd8bca79ce7bc15892b2d8f" upstream="refs/heads/linuxsecurity.lnx.1.0.r2-rel"/>
+  <project name="clo/le/meta-qti-security" path="poky/meta-qti-security" revision="fb7615af52e8efb350ce22875c0a731376bdae68" upstream="refs/heads/sec-userspace.lnx.14.01.r3-rel"/>
+  <project name="clo/le/meta-qti-sepolicy" path="poky/meta-qti-sepolicy" revision="8467fb0b2f23a396b0c81572f5ea5b033581e251" upstream="refs/heads/le-sepolicy.lnx.4.0.r20-rel"/>
+  <project name="clo/le/meta-qti-touch" path="poky/meta-qti-touch" revision="66f6741483b146a245d0c1b05a272a7b19129d1d" upstream="refs/heads/touch-kernel.lnx.5.15.r27-rel"/>
+  <project name="clo/le/meta-selinux" path="poky/meta-selinux" revision="140622e8e334c53513c3ac2cd33438bc6ce755da" upstream="refs/heads/le-sepolicy.lnx.4.0.r20-rel"/>
+  <project name="clo/le/platform/external/safe-iop" path="src/external/safe-iop" revision="aa0725fb1da35e47676b6da30009322eb5ed59be" upstream="refs/heads/le-blast.lnx.1.4.r34-rel"/>
+  <project name="clo/le/platform/hardware/libhardware" path="src/hardware/libhardware" revision="ba436a7086f90a02ee80684ae0292433bcff59e7" upstream="refs/heads/le-blast.lnx.1.4.r34-rel"/>
+  <project name="clo/le/platform/system/core" path="src/system/core" revision="7e59d1eb2a6c2f02854a0af5ca477b9ed57ba71d" upstream="refs/heads/le-blast.lnx.1.4.r34-rel"/>
+  <project name="clo/le/platform/system/extras" path="src/system/extras" revision="dc1bfff0da868aaf1ded1bf38de59d519c0c8f0e" upstream="refs/heads/le-blast.lnx.1.4.r34-rel"/>
+  <project name="clo/le/platform/system/memory_repo" path="src/system/memory" revision="ee1163c598ba2a1a0c0f53b97b3e063665695817" upstream="refs/heads/memory-le-apps.lnx.1.0.r48-rel"/>
+  <project name="clo/le/platform/system/memory/libdmabufheap" path="src/system/memory/libdmabufheap" revision="c4944ad6ba34dba200a4f127b43e2c94e109fb99" upstream="refs/heads/memory-le-apps.lnx.1.0.r48-rel"/>
+  <project name="clo/le/platform/system/memory/libmeminfo" path="src/system/memory/libmeminfo" revision="e5690f41db4637600d40b74d7eb8207837edfb85" upstream="refs/heads/memory-le-apps.lnx.1.0.r48-rel"/>
+  <project name="clo/le/platform/vendor/opensource/eva-kernel" path="src/vendor/qcom/opensource/eva-kernel" revision="a9839866058d79e04c2c6025c3b62187d2cf6e44" upstream="refs/heads/eva-kernel.lnx.2.0.r10-rel"/>
+  <project name="clo/le/platform/vendor/opensource/touch-drivers" path="src/vendor/qcom/opensource/touch-drivers" revision="57ebd2329115852a992a72de226a9d675793e88c" upstream="refs/heads/touch-kernel.lnx.5.15.r27-rel"/>
+  <project name="clo/le/platform/vendor/qcom-opensource/display-commonsys-intf" path="src/display/vendor/qcom/opensource/commonsys-intf/display" revision="01003ce023990fd9da3db165d6ae12549e16e1c5" upstream="refs/heads/display-sysintf.lnx.12.0.r36-rel"/>
+  <project name="clo/le/platform/vendor/qcom-opensource/le-framework" path="src/frameworks" revision="3d7577f9d034360b0d9f1afe2c9e566629a656e8" upstream="refs/heads/le-frameworks.lnx.2.1.r32-rel"/>
+  <project name="clo/le/platform/vendor/qcom/opensource/dsp-kernel" path="src/vendor/qcom/opensource/dsp-kernel" revision="f2961aceca3109a63890cc24fdbe5c8d90920cbd" upstream="refs/heads/dsp-kernel.lnx.1.0.r26-rel"/>
+  <project name="clo/le/platform/vendor/qcom/opensource/psi_daemon" path="src/vendor/qcom/opensource/psi_daemon" revision="505c1799b7e90941697174d2cb9c2fe581e22441" upstream="refs/heads/kernel.apps.lnx.1.0.r125-rel"/>
+  <project name="clo/le/platform/vendor/qcom/opensource/securemsm-kernel" path="src/vendor/qcom/opensource/securemsm-kernel" revision="16536659a284900364046ced65e730269b420f6e" upstream="refs/heads/sec-kernel.lnx.14.01.r3-rel"/>
+  <project name="clo/le/qti-conf" path="poky/qti-conf" revision="e750cc88d849af02735fead7fcfe57a9cd082a2f" upstream="refs/heads/yocto.lnx.4.0.r21-rel">
+    <linkfile src="set_bb_env.sh" dest="setup-environment"/>
+  </project>
+</manifest>
