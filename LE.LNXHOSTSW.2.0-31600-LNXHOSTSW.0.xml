@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="https://git.codelinaro.org/clo/le" name="clo-le"/>
+  <default remote="clo-le" revision="dummy_revision" sync-c="true" sync-tags="false"/>
+  <project remote="clo-le" name="platform/eks-sw-oss" path="src/platform/eks-sw-oss" revision="5a861bd575e247b27e6ba96b9ecf13245a92198b" upstream="refs/heads/le-host.lnx.2.0"/>
+  <project remote="clo-le" name="platform/external/mplanehostsw" path="src/platform/external/mplanehostsw" revision="b2d50417a7102539d82b185318961a6043b8f54d" upstream="refs/heads/csm_mplane_hostsw.lnx.1.0"/>
+  <project remote="clo-le" name="platform/mhi-core-lib" path="src/platform/mhi-core-lib" revision="8e26f55d84b7ed75cddef0f1cb2c0ec67a5d8650" upstream="refs/heads/core-technologies-mhi-host.lnx.1.0"/>
+  <project remote="clo-le" name="platform/mhi-host" path="src/platform/mhi-host" revision="3bf2078079aa146d75c1af9324df9a41b2bccb4b" upstream="refs/heads/core-technologies-mhi-host.lnx.1.0"/>
+  <project remote="clo-le" name="platform/ocp-sw-oss" path="src/platform/ocp-sw-oss" revision="8a547abd8ba64179b0ee543085928d258b042968" upstream="refs/heads/le-host.lnx.2.0"/>
+  <project remote="clo-le" name="platform/vendor/qcom-opensource/dp-driver" path="src/platform/vendor/qcom-opensource/dp-driver" revision="dcaebd3f2381fe1783b360628c307a492a347145" upstream="refs/heads/dp-driver.lnx.1.0"/>
+</manifest>
