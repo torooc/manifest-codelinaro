@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="https://git.codelinaro.org" name="clo" review="codelinaro.org"/>
+  <default remote="clo" revision="refs/heads/master"/>
+  <project dest-branch="refs/heads/bt-kernel.lnx.15.1" name="clo/la/platform/vendor/qcom-opensource/bt-kernel" path="vendor/qcom/opensource/bt-kernel" revision="bfcd0bf3e67b9be999d44a6264638b8eac62bfaf" upstream="refs/heads/bt-kernel.lnx.15.1"/>
+</manifest>
